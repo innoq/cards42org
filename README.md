@@ -12,13 +12,13 @@ Hintergründe und mehr Details zu den Karten sind auf [cards42.org](https://card
 
 ### Website
 
-Derzeit hemdsärmlich über [pandoc](https://pandoc.org/) mit dem Befehl
+Derzeit hemdsärmlich über bash mit dem Befehl 🙈
 
 ```
-pandoc -s --toc -c style.css --include-before-body=header.html --include-after-body=footer.html *.md > index.html
+cat header.html `find . -name "card*.md"` footer.html > index.html
 ```
 
-Später sollen die Markdown-Dateien mittels GitHub-Pages / Jekyll automatische gebaut werden (siehe https://nicolas-van.github.io/easy-markdown-to-github-pages/).
+Später sollen die Markdown-Dateien mittels GitHub-Pages / Jekyll automatische gebaut werden (siehe https://nicolas-van.github.io/easy-markdown-to-github-pages/). Daher sind die derzeitigen HTML-Snippets bereits in separaten `.md`-Dateien abgelegt.
 
 ### Bilder
 
