@@ -1,0 +1,84 @@
+@font-face {
+  font-family: FFMarkWebProBook;
+  font-display: swap;
+  src: url("https://assets.innoq.com/fonts/350ED6_4_unhinted_0.woff2?cachebuster=7d0a3995eec718ff34fa844413298153")
+      format("woff2"),
+    url("https://assets.innoq.com/fonts/350ED6_4_unhinted_0.woff?cachebuster=7d0a3995eec718ff34fa844413298153")
+      format("woff"),
+    url("https://assets.innoq.com/fonts/350ED6_4_unhinted_0.ttf?cachebuster=7d0a3995eec718ff34fa844413298153")
+      format("truetype");
+}
+
+@font-face {
+  font-family: FFMarkWebProHeavy;
+  font-display: swap;
+  src: url("https://assets.innoq.com/fonts/350ED6_6_unhinted_0.woff2?cachebuster=7d0a3995eec718ff34fa844413298153")
+      format("woff2"),
+    url("https://assets.innoq.com/fonts/350ED6_6_unhinted_0.woff?cachebuster=7d0a3995eec718ff34fa844413298153")
+      format("woff"),
+    url("https://assets.innoq.com/fonts/350ED6_6_unhinted_0.ttf?cachebuster=7d0a3995eec718ff34fa844413298153")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "icons";
+  font-display: swap;
+  src: url("https://assets.innoq.com/fonts/icomoon.woff2?cachebuster=7d0a3995eec718ff34fa8444132981c6")
+      format("woff2"),
+    url("https://assets.innoq.com/fonts/icomoon.woff?cachebuster=7d0a3995eec718ff34fa8444132981c6")
+      format("woff"),
+    url("https://assets.innoq.com/fonts/icomoon.ttf?cachebuster=7d0a3995eec718ff34fa8444132981c6")
+      format("truetype"),
+    url("https://assets.innoq.com/fonts/icomoon.svg?cachebuster=7d0a3995eec718ff34fa8444132981c6#icons")
+      format("svg");
+  font-style: normal;
+  font-weight: normal;
+}
+b,
+strong,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: FFMarkWebProHeavy;
+  margin-top: 50px;
+}
+
+img {
+  border:1px solid #cccccc;
+}
+
+strong {
+  color: #ff4d67;
+}
+
+body {
+  font-family: FFMarkWebProBook;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+.red {
+  color: #ff4d67;
+}
+.green {
+  color: #55cdaf;
+}
+.blue {
+  color: #24244c;
+}
+.yellow {
+  color: #fff019;
+}
+.grey {
+  color: #cccccc;
+}
+
+#footer {
+  margin-top: 50px;
+  text-align: center;
+}
