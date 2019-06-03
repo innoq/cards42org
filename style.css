@@ -62,6 +62,11 @@ body {
   margin: 0 auto;
 }
 
+img.card-image {
+  max-width:85%;
+  max-height:85%;
+}
+
 .red {
   color: #ff4d67;
 }
