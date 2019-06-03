@@ -21,13 +21,7 @@ Die Kartenbilder (unter `cards`) und deren Beschreibungen (unter `_descriptions`
 
 ### Website
 
-Derzeit hemdsärmlich über bash mit dem Befehl 🙈
-
-```
-cat header.html `find . -name "card*.md"` footer.html > index.html
-```
-
-Später sollen die Markdown-Dateien mittels GitHub-Pages / Jekyll automatische gebaut werden (siehe https://nicolas-van.github.io/easy-markdown-to-github-pages/). Daher sind die derzeitigen HTML-Snippets bereits in separaten `.md`-Dateien abgelegt.
+Die Seite wird über [Jekyll](https://jekyllrb.com/) erzeugt.
 
 ### Bilder
 
