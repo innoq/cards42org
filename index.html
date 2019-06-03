@@ -15,13 +15,11 @@ title: cards42 Homepage
     <div id="main">
         <h1><span style="font-size: 300%;">cards42</span><span style="font-size: 100%;">.org</span></h1>
 
-        <p>
-            <div style="font-size: 200%;">
-                <strong>C</strong>ards for <strong>A</strong>nalyzing and <strong>R</strong>eflecting on
-                <strong>D</strong>oomed <strong>S</strong>oftware
-            </div>
-        </p>
-
+        <div style="font-size: 200%;">
+            <strong>C</strong>ards for <strong>A</strong>nalyzing and <strong>R</strong>eflecting on
+            <strong>D</strong>oomed <strong>S</strong>oftware
+        </div>
+        
         <p>Die Begleitseite zum cards42-Projekt.</p>
 
         <h2>Einleitung</h2>
@@ -41,12 +39,12 @@ title: cards42 Homepage
         {% assign image = file_tokens[0] %}
         {% assign tag = file_tokens[1] | remove: ".md" %}
 
-        <h3 id="{{card.tag}}" class="card-title">{{ card.name }}</h3>
+        <h3 id="{{tag}}" class="card-title">{{ card.name }}</h3>
         <code>#{{tag}}</code>
 
         <div class="section group">
             <div class="col span_1_of_2">
-                <img src="../cards/{{image}}.png" width="80%" />
+                <img src="../cards/{{image}}.png" alt="Das Bild für die Karte mit dem Namen {{card.name}}" width="80%" />
             </div>
             <div class="col span_1_of_2">
                 {{ card.content | markdownify }}
