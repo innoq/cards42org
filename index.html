@@ -1,214 +1,66 @@
+---
+title: cards42 Homepage
+---
+<!doctype html>
 <html>
+
 <head>
-    <title>cards42 Homepage</title>
+    <meta charset="utf-8">
+    <title>{{page.title}}</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 
 <body>
+    <div id="main">
+        <h1><span style="font-size: 300%;">cards42</span><span style="font-size: 100%;">.org</span></h1>
 
-<h1><span style="font-size: 300%;">cards42</span><span style="font-size: 100%;">.org</span></h1>
+        <p>
+            <div style="font-size: 200%;">
+                <strong>C</strong>ards for <strong>A</strong>nalyzing and <strong>R</strong>eflecting on
+                <strong>D</strong>oomed <strong>S</strong>oftware
+            </div>
+        </p>
 
-<p>
-    <div style="font-size: 200%;">
-        <strong>C</strong>ards for <strong>A</strong>nalyzing and <strong>R</strong>eflecting on <strong>D</strong>oomed <strong>S</strong>oftware
+        <p>Die Begleitseite zum cards42-Projekt.</p>
+
+        <h2>Einleitung</h2>
+
+        Willkommen beim cards42-Projekt! Die Karten von cards42 unterstützten bei der täglichen Arbeit mit
+        Softwarearchitekturen. Die Karten geben kurze Denkanstöße für festgefahrene Situationen und helfen, neues Licht
+        auf
+        schwierige Herausforderungen zu werfen.
+
+        Diese Webseite bietet ausführliche Erklärungen sowie die Hintergründe und weitere Informationen zu den Karten.
+
+        <h2>Karten</h2>
+
+        {% for card in site.descriptions %}
+        {% assign path_tokens = card.path | split: '/' %}
+        {% assign file_tokens = path_tokens[1] | split: '_' %}
+        {% assign image = file_tokens[0] %}
+        {% assign tag = file_tokens[1] | remove: ".md" %}
+
+        <h3 id="{{card.tag}}" class="card-title">{{ card.name }}</h3>
+        <code>#{{tag}}</code>
+
+        <div class="section group">
+            <div class="col span_1_of_2">
+                <img src="../cards/{{image}}.png" width="80%" />
+            </div>
+            <div class="col span_1_of_2">
+                {{ card.content | markdownify }}
+            </div>
+        </div>
+        {% endfor %}
+
     </div>
-</p>
-
-<p>Die Begleitseite zum cards42-Projekt.</p>
-
-<h2>Einleitung</h2>
-
-Willkommen beim cards42-Projekt! Die Karten von cards42 unterstützten bei der täglichen Arbeit mit Softwarearchitekturen. Die Karten geben kurze Denkanstöße für festgefahrene Situationen und helfen, neues Licht auf schwierige Herausforderungen zu werfen.
-
-Diese Webseite bietet ausführliche Erklärungen sowie die Hintergründe und weitere Informationen zu den Karten.
+    <div id="footer">
+        &copy; 2019 <a href="https://innoq.com/">innoQ Deutschland GmbH</a>
+    </div>
 
 
-<h2>Karten</h2>
-<h3 id="expection">ResourceAllocationExpection</h3> 
-<code>#expection</code>
-<table>
-<tr>
-<td>
-<img src="cards/card01.png" width="90%"/>
-</td>
-<td>
-Oft sind wir in unserer eigene Welt mit all ihrer Beschränkungen gefangen. Wir darauf konditioniert, uns bescheiden zu geben &ndash; bescheiden sind damit dann auch unsere Lösungen.
 
-Aber was wäre, wenn Du unerschöpflichen Ressourcen nutzen könntest. Was würde es im Softwaresystem bewirken? Was sind die maximal sinnvollen Ressourcen? Wie weit bist Du hier weg? Wie bekommst Du die wirklich wichtigen Ressourcen, um Dein Softwaresystem noch besser zu machen?
-
-Quelle: Aus einem Gespräch mit Simon Harrer
-
-<td>
-</tr>
-</table>
-<h3 id="adr">Architecture Decision Record</h3>
-<code>#adr</code>
-<table>
-<tr>
-<td>
-<img src="cards/card02.png" width="90%"/>
-</td>
-<td>
-Lorem ipsum dolor sit amet, iusto epicurei cum ea. Alterum nostrum repudiandae ea mea, mentitum similique ad eos, suas ocurreret ex nec. Eam ne quidam perpetua, in his labores veritus. Veniam meliore deleniti ei nam, his labitur temporibus in. Erat voluptaria eam at.
-
-Et liber forensibus his, ei vim ullum intellegebat. Aperiri oporteat vim et. Ad elitr conclusionemque mei, legere utroque officiis per ei. Quo aeque utinam bonorum eu, ne vel meis sonet laboramus.
-<td>
-</tr>
-</table>
-
-<h3 id="quickcheck">Architecture Decision Record</h3>
-<code>#quickcheck</code>
-<table>
-<tr>
-<td>
-<img src="cards/card03.png" width="90%"/>
-</td>
-<td>
-Lorem ipsum dolor sit amet, iusto epicurei cum ea. Alterum nostrum repudiandae ea mea, mentitum similique ad eos, suas ocurreret ex nec. Eam ne quidam perpetua, in his labores veritus. Veniam meliore deleniti ei nam, his labitur temporibus in. Erat voluptaria eam at.
-
-Et liber forensibus his, ei vim ullum intellegebat. Aperiri oporteat vim et. Ad elitr conclusionemque mei, legere utroque officiis per ei. Quo aeque utinam bonorum eu, ne vel meis sonet laboramus.
-<td>
-</tr>
-</table>
-
-<h3 id="produktbox">Deine Produktbox</h3>
-<code>#produktbox</code>
-<table>
-<tr>
-<td>
-<img src="cards/card04.png" width="90%"/>
-</td>
-<td>
-Lorem ipsum dolor sit amet, iusto epicurei cum ea. Alterum nostrum repudiandae ea mea, mentitum similique ad eos, suas ocurreret ex nec. Eam ne quidam perpetua, in his labores veritus. Veniam meliore deleniti ei nam, his labitur temporibus in. Erat voluptaria eam at.
-
-Et liber forensibus his, ei vim ullum intellegebat. Aperiri oporteat vim et. Ad elitr conclusionemque mei, legere utroque officiis per ei. Quo aeque utinam bonorum eu, ne vel meis sonet laboramus.
-<td>
-</tr>
-</table>
-
-<h3 id="bierdeckel">Meine Architektur</h3>
-<code>#bierdeckel</code>
-<table>
-<tr>
-<td>
-<img src="cards/card05.png" width="90%"/>
-</td>
-<td>
-Lorem ipsum dolor sit amet, iusto epicurei cum ea. Alterum nostrum repudiandae ea mea, mentitum similique ad eos, suas ocurreret ex nec. Eam ne quidam perpetua, in his labores veritus. Veniam meliore deleniti ei nam, his labitur temporibus in. Erat voluptaria eam at.
-
-Et liber forensibus his, ei vim ullum intellegebat. Aperiri oporteat vim et. Ad elitr conclusionemque mei, legere utroque officiis per ei. Quo aeque utinam bonorum eu, ne vel meis sonet laboramus.
-<td>
-</tr>
-</table>
-
-<h3 id="torte">Die 8-Stunden-Torte</h3>
-<code>#torte</code>
-<table>
-<tr>
-<td>
-<img src="cards/card06.png" width="90%"/>
-</td>
-<td>
-Lorem ipsum dolor sit amet, iusto epicurei cum ea. Alterum nostrum repudiandae ea mea, mentitum similique ad eos, suas ocurreret ex nec. Eam ne quidam perpetua, in his labores veritus. Veniam meliore deleniti ei nam, his labitur temporibus in. Erat voluptaria eam at.
-
-Et liber forensibus his, ei vim ullum intellegebat. Aperiri oporteat vim et. Ad elitr conclusionemque mei, legere utroque officiis per ei. Quo aeque utinam bonorum eu, ne vel meis sonet laboramus.
-<td>
-</tr>
-</table>
-
-<h3 id="standards">Arbeit ich nach gängigen Entwicklungsstandards?</h3>
-<code>#standards</code>
-<table>
-<tr>
-<td>
-<img src="cards/card07.png" width="90%"/>
-</td>
-<td>
-Lorem ipsum dolor sit amet, iusto epicurei cum ea. Alterum nostrum repudiandae ea mea, mentitum similique ad eos, suas ocurreret ex nec. Eam ne quidam perpetua, in his labores veritus. Veniam meliore deleniti ei nam, his labitur temporibus in. Erat voluptaria eam at.
-
-Et liber forensibus his, ei vim ullum intellegebat. Aperiri oporteat vim et. Ad elitr conclusionemque mei, legere utroque officiis per ei. Quo aeque utinam bonorum eu, ne vel meis sonet laboramus.
-<td>
-</tr>
-</table>
-
-<h3 id="rootcause">Root Cause Analysis</h3>
-<code>#rootcause</code>
-<table>
-<tr>
-<td>
-<img src="cards/card08.png" width="90%"/>
-</td>
-<td>
-Lorem ipsum dolor sit amet, iusto epicurei cum ea. Alterum nostrum repudiandae ea mea, mentitum similique ad eos, suas ocurreret ex nec. Eam ne quidam perpetua, in his labores veritus. Veniam meliore deleniti ei nam, his labitur temporibus in. Erat voluptaria eam at.
-
-Et liber forensibus his, ei vim ullum intellegebat. Aperiri oporteat vim et. Ad elitr conclusionemque mei, legere utroque officiis per ei. Quo aeque utinam bonorum eu, ne vel meis sonet laboramus.
-<td>
-</tr>
-</table>
-
-<h3 id="schmerzen">Mein schmerzhaftestes Problem</h3>
-<code>#schmerzen</code>
-<table>
-<tr>
-<td>
-<img src="cards/card09.png" width="90%"/>
-</td>
-<td>
-Lorem ipsum dolor sit amet, iusto epicurei cum ea. Alterum nostrum repudiandae ea mea, mentitum similique ad eos, suas ocurreret ex nec. Eam ne quidam perpetua, in his labores veritus. Veniam meliore deleniti ei nam, his labitur temporibus in. Erat voluptaria eam at.
-
-Et liber forensibus his, ei vim ullum intellegebat. Aperiri oporteat vim et. Ad elitr conclusionemque mei, legere utroque officiis per ei. Quo aeque utinam bonorum eu, ne vel meis sonet laboramus.
-<td>
-</tr>
-</table>
-
-<h3 id="schulden">Technische Schulden</h3>
-<code>#schulden</code>
-<table>
-<tr>
-<td>
-<img src="cards/card10.png" width="90%"/>
-</td>
-<td>
-Lorem ipsum dolor sit amet, iusto epicurei cum ea. Alterum nostrum repudiandae ea mea, mentitum similique ad eos, suas ocurreret ex nec. Eam ne quidam perpetua, in his labores veritus. Veniam meliore deleniti ei nam, his labitur temporibus in. Erat voluptaria eam at.
-
-Et liber forensibus his, ei vim ullum intellegebat. Aperiri oporteat vim et. Ad elitr conclusionemque mei, legere utroque officiis per ei. Quo aeque utinam bonorum eu, ne vel meis sonet laboramus.
-<td>
-</tr>
-</table>
-
-<h3 id="unbekannte">Der unbekannte Bekannte</h3>
-<code>#unbekannte</code>
-<table>
-<tr>
-<td>
-<img src="cards/card11.png" width="90%"/>
-</td>
-<td>
-Lorem ipsum dolor sit amet, iusto epicurei cum ea. Alterum nostrum repudiandae ea mea, mentitum similique ad eos, suas ocurreret ex nec. Eam ne quidam perpetua, in his labores veritus. Veniam meliore deleniti ei nam, his labitur temporibus in. Erat voluptaria eam at.
-
-Et liber forensibus his, ei vim ullum intellegebat. Aperiri oporteat vim et. Ad elitr conclusionemque mei, legere utroque officiis per ei. Quo aeque utinam bonorum eu, ne vel meis sonet laboramus.
-<td>
-</tr>
-</table>
-
-<h3 id="ausreden">Wie schlimm redest du Dir das Dokumentieren?</h3>
-<code>#ausreden</code>
-<table>
-<tr>
-<td>
-<img src="cards/card12.png" width="90%"/>
-</td>
-<td>
-Lorem ipsum dolor sit amet, iusto epicurei cum ea. Alterum nostrum repudiandae ea mea, mentitum similique ad eos, suas ocurreret ex nec. Eam ne quidam perpetua, in his labores veritus. Veniam meliore deleniti ei nam, his labitur temporibus in. Erat voluptaria eam at.
-
-Et liber forensibus his, ei vim ullum intellegebat. Aperiri oporteat vim et. Ad elitr conclusionemque mei, legere utroque officiis per ei. Quo aeque utinam bonorum eu, ne vel meis sonet laboramus.
-<td>
-</tr>
-</table>
-
-<div id="footer">
-    &copy; 2019 <a href="https://innoq.com/">innoQ Deutschland GmbH</a>
-</div>
-    
 </body>
+
 </html>
