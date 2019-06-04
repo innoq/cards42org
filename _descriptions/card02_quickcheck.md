@@ -1,7 +1,6 @@
 ---
 name: Architektur-Quick-Check
 ---
-Lorem ipsum dolor sit amet, iusto epicurei cum ea. Alterum nostrum repudiandae ea mea, mentitum similique ad eos, suas ocurreret ex nec. Eam ne quidam perpetua, in his labores veritus. Veniam meliore deleniti ei nam, his labitur temporibus in. Erat voluptaria eam at.
+Wichtige Qualitätsziele bestimmen Entscheidungen bei der Umsetzunng von Softwaresystemen maßgeblich. In diesem Quick-Check kannst Du Deine TOP 3 Qualitätsziele mit der umgesetzten Lösung vergleichen, um zu sehen, ob diese zusammenpassen.
 
-Et liber forensibus his, ei vim ullum intellegebat. Aperiri oporteat vim et. Ad elitr conclusionemque mei, legere utroque officiis per ei. Quo aeque utinam bonorum eu, ne vel meis sonet laboramus.
-
+Finde als erstes heraus, was die TOP Qualitätsziele sind. Dann identifiziere die wesentlichen Archtekturansätze Deines Softwaresystems. Das sind die Dinge, die Du einen Techie erzählst, der wissen will, wie ihr die Software aufgebaut hast. Schätze dann ab, wie gut der jeweilige Architekturansatz die Erreichung eines Qualitätsziels unterstützt (oder auch entgegenwirkt).

@@ -1,6 +1,11 @@
 ---
 name: Architecture Decision Record
 ---
-Lorem ipsum dolor sit amet, iusto epicurei cum ea. Alterum nostrum repudiandae ea mea, mentitum similique ad eos, suas ocurreret ex nec. Eam ne quidam perpetua, in his labores veritus. Veniam meliore deleniti ei nam, his labitur temporibus in. Erat voluptaria eam at.
+In längerentwickelten Softwaresystemen ist es mit der Zeit sehr schwierig, getroffene Entscheidungen aus der Vergangenheit nachzuvollziehen. Daher ist es immer wichtig, Entscheidungen und deren Beweggründe verständlich zu dokumentieren.
 
-Et liber forensibus his, ei vim ullum intellegebat. Aperiri oporteat vim et. Ad elitr conclusionemque mei, legere utroque officiis per ei. Quo aeque utinam bonorum eu, ne vel meis sonet laboramus.
+Mittels Architecture Decisions Records gibt es die Idee, Entscheidungen möglichst leichtgewichtig und einheitlich zu dokumentieren. Zudem werden hier die Gründe für eine Entscheidung und die hier durchlaufenen Gedankengänge sowie der Kontext (Zeit, Wissen, Beteiligte etc.) festgehalten.
+
+**Weitere Informationen**
+
+* [Einstiegsseite für das Thema ADR](https://adr.github.io/)
+* [Initiale Vorstellung der Idee von ADRs](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions)
