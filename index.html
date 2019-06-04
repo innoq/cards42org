@@ -8,49 +8,74 @@ title: cards42 Homepage
     <meta charset="utf-8">
     <title>{{page.title}}</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
 </head>
 
 <body>
     <div id="main">
-        <h1><span style="font-size: 250%;">cards42</span><span style="font-size: 100%;">.org</span></h1>
+        <div class="section">
+            <div class="group">
+                <div class="col span_2_of_2">
+                    <h1><span class="font250">cards42</span><span class="font100"">.org</span></h1>
 
-        <div style="font-size: 150%;">
-            <strong>C</strong>ards for <strong>A</strong>nalyzing and <strong>R</strong>eflecting on
-            <strong>D</strong>oomed <strong>S</strong>oftware
+                    <div class=" font150">
+                            <strong>C</strong>ards for <strong>A</strong>nalyzing and <strong>R</strong>eflecting on
+                            <strong>D</strong>oomed <strong>S</strong>oftware
+                </div>
+            </div>
         </div>
-        
-        <p>Die Begleitseite zum cards42-Projekt.</p>
+    </div>
 
-        <h2>Einleitung</h2>
+    <div class="section">
+        <div class="group">
+            <div class="col span_2_of_2">
+                <p>Die Begleitseite zum cards42-Projekt.</p>
 
-        Willkommen beim cards42-Projekt! Die Karten von cards42 unterstützten bei der täglichen Arbeit mit
-        Softwarearchitekturen. Die Karten geben kurze Denkanstöße für festgefahrene Situationen und helfen, neues Licht
-        auf
-        schwierige Herausforderungen zu werfen.
+                <h2>Einleitung</h2>
 
-        Diese Webseite bietet ausführliche Erklärungen sowie die Hintergründe und weitere Informationen zu den Karten.
+                Willkommen beim cards42-Projekt! Die Karten von cards42 unterstützten bei der täglichen Arbeit mit
+                Softwarearchitekturen. Die Karten geben kurze Denkanstöße für festgefahrene Situationen und helfen,
+                neues Licht
+                auf
+                schwierige Herausforderungen zu werfen.
 
-        <h2>Karten</h2>
+                Diese Webseite bietet ausführliche Erklärungen sowie die Hintergründe und weitere Informationen zu den
+                Karten.
+            </div>
+        </div>
+    </div>
 
-        {% for card in site.descriptions %}
-        {% assign path_tokens = card.path | split: '/' %}
-        {% assign file_tokens = path_tokens[1] | split: '_' %}
-        {% assign image = file_tokens[0] %}
-        {% assign tag = file_tokens[1] | remove: ".md" %}
+    <div class="section">
+        <div class="group">
+            <div class="col span_2_of_2">
+                <h2>Karten</h2>
+            </div>
+        </div>
+    </div>
+    {% for card in site.descriptions %}
+    {% assign path_tokens = card.path | split: '/' %}
+    {% assign file_tokens = path_tokens[1] | split: '_' %}
+    {% assign image = file_tokens[0] %}
+    {% assign tag = file_tokens[1] | remove: ".md" %}
 
-        <h3 id="{{tag}}" class="card-title">{{ card.name }}</h3>
-        <code>#{{tag}}</code>
-
-        <div class="section group">
+    <div class="section">
+        <div class="group">
+            <div class="col span_2_of_2">
+                <h3 id="{{tag}}" class="card-title">{{ card.name }}</h3>
+                <code>#{{tag}}</code>
+            </div>
+        </div>
+        <div class="group">
             <div class="col span_1_of_2">
-                <img class="card-image" src="../cards/{{image}}.png" alt="Das Bild für die Karte mit dem Namen {{card.name}}" />
+                <img class="card-image" src="../cards/{{image}}.png"
+                    alt="Das Bild für die Karte mit dem Namen {{card.name}}" />
             </div>
             <div class="col span_1_of_2">
                 {{ card.content | markdownify }}
             </div>
         </div>
-        {% endfor %}
+    </div>
+    {% endfor %}
 
     </div>
     <div id="footer">
