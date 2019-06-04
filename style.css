@@ -67,6 +67,18 @@ img.card-image {
   max-height:85%;
 }
 
+.font250 {
+  font-size: 250%;
+}
+
+.font150 {
+  font-size: 150%;
+}
+
+.font100 {
+  font-size: 100%;
+}
+
 .red {
   color: #ff4d67;
 }
@@ -84,11 +96,11 @@ img.card-image {
 }
 
 .card-title {
-  margin-top: 50px;
+  margin-top: 1em;
 }
 
 #footer {
-  margin-top: 50px;
+  margin-top: 1em;
   text-align: center;
 }
 
@@ -127,13 +139,15 @@ img.card-image {
 /*  GO FULL WIDTH AT LESS THAN 800 PIXELS */
 
 @media only screen and (max-width: 800px) {
-	.col { 
-		margin: 1% 0 1% 0%;
-	}
-}
+  .col { 
+		margin: 1%;
+  }
+  
+  .col:first-child {
+    margin-left: 1%;
+  }
 
-@media only screen and (max-width: 800px) {
-	.span_2_of_2, .span_1_of_2 { width: 100%; }
+  .span_2_of_2, .span_1_of_2 { width: 100%; }
 }
 
 /* END generated */
