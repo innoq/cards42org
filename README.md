@@ -25,7 +25,18 @@ Die Seite wird über [Jekyll](https://jekyllrb.com/) erzeugt.
 
 ### Bilder
 
-Die PNG-Bilder werden per Ghostscript erzeugt. Die einzelnen PDF-Seiten als PNG-Bilder (mit Anti-Aliasing und 144 DPI) exportiert. Dabei werden die ersten zwei Seiten (= Titel- und Erklärungskarte) übersprungen (`-dFirstPage=3`).
+Die PNG-Bilder werden per Ghostscript erzeugt.
+
+ie PNG-Bilder werden per Ghostscript erzeugt.
+
+Schritt 1: Bei der Original-PDF müssen zuerst die Druckränder entfernt werden:
 
 ```
-gs -dFirstPage=3 -sDEVICE=png16m -dTextAlphaBits=4 -dGraphicsAlphaBits=4 -r144 -o card%02d.png cards42_final.pdf```
+gs -sDEVICE=pdfwrite -o "cards42_temp.pdf" -g2960x4144 -c "<< /Install { -22 -22 translate } bind >> setpagedevice" -f cards42.pdf
+```
+
+Schritt 2: Die einzelnen Karten werden ohne Titel- und Erklärungskarte (`-dFirstPage=3`) als PNG-Bilder (`-sDEVICE=png16`) mit Anti-Aliasing (`-dTextAlphaBits=4` und `-dGraphicsAlphaBits=4`) in 144 DPI (`-r144`) und dem weiter oben definierten Namensschema `-o card%02d.png` exportiert.
+
+```
+gs -dFirstPage=3 -sDEVICE=png16m -dTextAlphaBits=4 -dGraphicsAlphaBits=4 -r144 -o card%02d.png cards42_temp.pdf
+```
