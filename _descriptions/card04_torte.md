@@ -1,6 +1,10 @@
 ---
 name: Die 8-Stunden-Torte
 ---
-Lorem ipsum dolor sit amet, iusto epicurei cum ea. Alterum nostrum repudiandae ea mea, mentitum similique ad eos, suas ocurreret ex nec. Eam ne quidam perpetua, in his labores veritus. Veniam meliore deleniti ei nam, his labitur temporibus in. Erat voluptaria eam at.
+<q>Der Tag hat 24h und die Nacht ist auch noch da</q> -- Unbekannt.
 
-Et liber forensibus his, ei vim ullum intellegebat. Aperiri oporteat vim et. Ad elitr conclusionemque mei, legere utroque officiis per ei. Quo aeque utinam bonorum eu, ne vel meis sonet laboramus.
+...und plötzlich war der Tag schon wieder vorbei. Aber was hast Du bewegt? Diese Zeittorte hilft Dir zu sehen, wohin Du Deine wertvolle Zeit investierst
+
+* Wie hart am Anschlag bist Du ausgeplant?
+* Nutzt Du Deine Zeit auch wirklich effektiv?
+* Welche der Zeitslots kannst Du einfach loswerden?

@@ -1,6 +1,4 @@
 ---
 name: Technische Schulden
 ---
-Lorem ipsum dolor sit amet, iusto epicurei cum ea. Alterum nostrum repudiandae ea mea, mentitum similique ad eos, suas ocurreret ex nec. Eam ne quidam perpetua, in his labores veritus. Veniam meliore deleniti ei nam, his labitur temporibus in. Erat voluptaria eam at.
-
-Et liber forensibus his, ei vim ullum intellegebat. Aperiri oporteat vim et. Ad elitr conclusionemque mei, legere utroque officiis per ei. Quo aeque utinam bonorum eu, ne vel meis sonet laboramus.
+Der Begriff "Technische Schulden" wirkt heutzutage schon sehr abgedroschen, diffus und auch abstrakt. Mache für Dein Softwaresystem mehr sichtbar, was ihr im Team damit meint. Schätzt dazu ab, was und wie viel an "Technischen Schulden" ihr habt. Definiert und diskutiert die gefundenden Punkt untereinander, damit klarer wird, an was es Eurem Softwaresystem wirklich fehlt.

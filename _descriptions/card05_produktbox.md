@@ -1,6 +1,12 @@
 ---
 name: Deine Produktbox
 ---
-Lorem ipsum dolor sit amet, iusto epicurei cum ea. Alterum nostrum repudiandae ea mea, mentitum similique ad eos, suas ocurreret ex nec. Eam ne quidam perpetua, in his labores veritus. Veniam meliore deleniti ei nam, his labitur temporibus in. Erat voluptaria eam at.
+Die Produktbox hilft Dir, wichtige Antworten für Deine Software aus der Sicht der Kunden zu finden:
+* Was wird eigentlich entwickelt?
+* Wer hat den Nutzen?
+* Was ist das zentrale Verkaufs- / Nutzungsargument?
+* Was sind die Kernfunktionen?
+* Wie hebt sich das Produkt von anderen Produkten oder der Vorgängerversion ab?
 
-Et liber forensibus his, ei vim ullum intellegebat. Aperiri oporteat vim et. Ad elitr conclusionemque mei, legere utroque officiis per ei. Quo aeque utinam bonorum eu, ne vel meis sonet laboramus.
+Durch die Beantwortung solcher Fragen bekommst Du einen besseres Gefühl dafür, wozu Du die Software wirklich entwickelst.
+
