@@ -17,6 +17,8 @@ Die Kartenbilder (unter `cards`) und deren Beschreibungen (unter `_descriptions`
 
 Über Jekyll / Liquid werden in der `index.html` so die entsprechenden Informationen aus den Dateinamen extrahiert.
 
+**Achtung: Dieses Repository ist derzeit noch private. Es wird aber bei Release public gemacht. Daher sich bitte hier entsprechend benehmen!**
+
 ## Wie wir das gebaut?
 
 ### Website
