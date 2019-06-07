@@ -1,8 +1,13 @@
 ---
 name: Meine Architektur
 ---
-"Das System ist zu komplex, um es kurz aufzumalen!" - diesen Satz hat mit Sicherheit jede\*r Entwickler\*in schon einmal gehört. 
+<q>Das System ist zu komplex, um es kurz aufzumalen!" &ndash; diesen Satz hat mit Sicherheit jede\*r Entwickler\*in schon einmal gehört. 
 
-Wir glauben, jede Architektur kann man grob auf einem Bierdeckel notieren. 
+Eine gut strukturierte und klare kommunizierende Softwarearchitektur muss jedoch auf einen Bierdeckel passen.
 
-Versucht, die Layer eurer Architektur kompakt auf die Karte zu skizzieren. Wo trefft ihr auf Probleme? Besitzt ihr zu viele Schichten, oder ist vielleicht auch eine Schicht zu breit? Diskutiert die Ergebnisse und überlegt euch, welche Maßnahmen man zur Verbesserung der Situation treffen kann.  
+Versucht, die wichtigsten Strukturen eurer Architektur kompakt auf die Karte zu skizzieren.
+* Wann trefft ihr auf Platzprobleme? Besitzt ihr zu viel unnötigen Balast?
+* Wird es an manchen Stellen zu detailliert? Ist das System vielleicht zu unterschiedlich abstrahiert?
+* Wisst ihr nicht, was ihr malen sollt? Sind wesentliche Konzepte der Architektur nicht bekannt?
+
+Diskutiert euer Vorgehen und das Ergebnis. Überlegt euch, welche Maßnahmen ihr für eine noch klarere Strukturierung eures Softwaresystems vornehmen könnt.
