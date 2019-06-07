@@ -6,7 +6,21 @@ Dies ist das Repository für die Homepage [cards42.org](https://cards42.org). Da
 
 Die Karten geben kurze Denkanstöße für festgefahrene Situationen und helfen, neues Licht auf schwierige Herausforderungen zu werfen.
 
-Hintergründe und mehr Details zu den Karten sind auf [cards42.org](https://cards42.org) zu finden.
+Hintergründe und mehr Details zu den Karten sind auf [cards42.org](https://cards42.org) zu finden.^
+
+## Wie kann ich hier mitarbeiten?
+
+### Beschreibungstexte
+
+Die Texte, welche die Karten erklären, findest Du unter `_descriptions`. Erstelle gerne einen neuen Pull Request mit Deinen Änderungen oder Ergänzungen zu den vorhandenen Texten. Einen neuen Text kannst Du zusammen mit einer neuen Karte ebenfalls beisteuern. Halte Dich hier bitte an die Namenskonventionen, welche weiter unten beschrieben sind.
+
+### Neue Kartenideen
+
+Gerne kannst Du auch Deine Ideen für neue Karten beitragen. Öffne dazu einfach ein neues Ticket in Repository und beschreibe Deine Idee. Vielleicht hast Du auch schon eine Skizze der Karte? Lade sie einfach hoch und wir diskutieren drüber. Wir würden dann die Idee gemeinsam ausarbeiten und auch grafisch redesignen.
+
+### Deine Mitarbeit
+
+Gerne nennen wir Deinen Namen dann auf unserer Website [cards42.org](https://cards42.org) unter der "Mitwirkende"-Sektion!
 
 ## Was muss beachtet werden?
 
@@ -16,8 +30,6 @@ Die Kartenbilder (unter `cards`) und deren Beschreibungen (unter `_descriptions`
 * Der Dateiname einer Beschreibung lautet `<cardname>_<tag>.md`
 
 Über Jekyll / Liquid werden in der `index.html` so die entsprechenden Informationen aus den Dateinamen extrahiert.
-
-**Achtung: Dieses Repository ist derzeit noch private. Es wird aber bei Release public gemacht. Daher sich bitte hier entsprechend benehmen!**
 
 ## Wie wir das gebaut?
 
