@@ -1,6 +1,4 @@
 ---
 name: Standortbestimmung
 ---
-Lorem ipsum dolor sit amet, iusto epicurei cum ea. Alterum nostrum repudiandae ea mea, mentitum similique ad eos, suas ocurreret ex nec. Eam ne quidam perpetua, in his labores veritus. Veniam meliore deleniti ei nam, his labitur temporibus in. Erat voluptaria eam at.
-
-Et liber forensibus his, ei vim ullum intellegebat. Aperiri oporteat vim et. Ad elitr conclusionemque mei, legere utroque officiis per ei. Quo aeque utinam bonorum eu, ne vel meis sonet laboramus.
+Vielen Teams ist nicht bewusst, wo ihre Software eigentlich steht. Diskutiert untereinander, mit welchen Stärken eure Software punktet und welche Schwächen sie offenbart. Sucht auf dieser Basis Gelegenheiten, um die Schwächen zu entfernen und Möglichkeiten, eure Stärken noch mehr zu verbessern. Identifiziert ebenfalls Risiken, die sich in eurem System verbergen. 
