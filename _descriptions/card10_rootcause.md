@@ -1,6 +1,8 @@
 ---
 name: Root Cause Analysis
 ---
-Lorem ipsum dolor sit amet, iusto epicurei cum ea. Alterum nostrum repudiandae ea mea, mentitum similique ad eos, suas ocurreret ex nec. Eam ne quidam perpetua, in his labores veritus. Veniam meliore deleniti ei nam, his labitur temporibus in. Erat voluptaria eam at.
+Softwareentwickler*innen lösen tagtäglich hunderte von kleinen und großen Problemen. Wir sind dadurch darauf konditioniert, schnell Lösungen hervorzubringen. In manchen schwierigen Situationen ist dies aber kontraproduktiv. Wir reagieren hier oft auch mit unserem antrainierten Lösungsreflex auf das erste vermeintliche und für uns klar erscheinende Problem.
 
-Et liber forensibus his, ei vim ullum intellegebat. Aperiri oporteat vim et. Ad elitr conclusionemque mei, legere utroque officiis per ei. Quo aeque utinam bonorum eu, ne vel meis sonet laboramus.
+Diese Karte soll euch dabei helfen, den ersten Reflex zu unterdrücken, in dem ihr mit gezielten <q>Warum?</q>-Fragen erst die wahren Probleme ergründet.
+
+Versucht die sog. "5 Whys" bei verzwickten Situationen einzusetzen, um nicht nur ständig Symptome zu lösen, sondern die richtigen Problemursachen bei der Wurzel anzupacken.

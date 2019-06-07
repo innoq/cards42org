@@ -1,6 +1,6 @@
 ---
 name: Der unbekannte Bekannte
 ---
-Lorem ipsum dolor sit amet, iusto epicurei cum ea. Alterum nostrum repudiandae ea mea, mentitum similique ad eos, suas ocurreret ex nec. Eam ne quidam perpetua, in his labores veritus. Veniam meliore deleniti ei nam, his labitur temporibus in. Erat voluptaria eam at.
+Vermutlich hat jede an einem Softwareprojekt beteiligte Person in einer technischen Rolle dieses Problem schon einmal erlebt: Man glaubt, alles richtig zu machen, und auf einmal möchte ein Stakeholder aber etwas ganz anderes. Das Unverständnis ist groß, die Frustration steigt. 
 
-Et liber forensibus his, ei vim ullum intellegebat. Aperiri oporteat vim et. Ad elitr conclusionemque mei, legere utroque officiis per ei. Quo aeque utinam bonorum eu, ne vel meis sonet laboramus.
+Was denkt ihr, bewegt diese Person? Versucht euch, in ihre Lage zu versetzen und überlegt, was die Motivation hinter dem Verhalten des Stakeholders ist. Wie könnt ihr auf seine Bedürfnisse eingehen, um die Situation produktiver und für alle angenehmer zu gestalten?

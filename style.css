@@ -147,6 +147,11 @@ img.card-image {
     margin-left: 1%;
   }
 
+  img.card-image {
+    max-width:98%;
+    max-height:98%;
+  }
+
   .span_2_of_2, .span_1_of_2 { width: 100%; }
 }
 

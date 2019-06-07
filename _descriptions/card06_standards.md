@@ -1,6 +1,7 @@
 ---
 name: Arbeite ich nach gängigen Entwicklungsstandards?
 ---
-Lorem ipsum dolor sit amet, iusto epicurei cum ea. Alterum nostrum repudiandae ea mea, mentitum similique ad eos, suas ocurreret ex nec. Eam ne quidam perpetua, in his labores veritus. Veniam meliore deleniti ei nam, his labitur temporibus in. Erat voluptaria eam at.
+Mit der immer komplexer werdenden Software haben sich im Laufe
+der Jahre kontinuierlich mehr Standards etabliert, welche die Entwicklung und Evolution eines Softwaresystems unterstützen. 
 
-Et liber forensibus his, ei vim ullum intellegebat. Aperiri oporteat vim et. Ad elitr conclusionemque mei, legere utroque officiis per ei. Quo aeque utinam bonorum eu, ne vel meis sonet laboramus.
+Prüft in eurem Team, welche dieser Standards ihr umsetzt und wo es möglicherweise Nachholbedarf gibt. Überlegt euch auch, warum ihr fehlende oder unzureichende Maßnahmen bisher nicht angegangen seid.
