@@ -1,6 +1,4 @@
 ---
 name: Das Worst-Case-Szenario
 ---
-Lorem ipsum dolor sit amet, iusto epicurei cum ea. Alterum nostrum repudiandae ea mea, mentitum similique ad eos, suas ocurreret ex nec. Eam ne quidam perpetua, in his labores veritus. Veniam meliore deleniti ei nam, his labitur temporibus in. Erat voluptaria eam at.
-
-Et liber forensibus his, ei vim ullum intellegebat. Aperiri oporteat vim et. Ad elitr conclusionemque mei, legere utroque officiis per ei. Quo aeque utinam bonorum eu, ne vel meis sonet laboramus.
+Häufig überlegt man erst nach dem fatalen Ende eines Sprints / Projekts / etc. was zu dem entsprechenden Ausgang geführt hat. Aber warum muss es erst so weit kommen? Macht euch Gedanken, was dazu führen könnte, dass euer Produkt in der nahen Zukunft gegen die Wand fährt. Nutzt diese Erkenntnis, um geeignete Gegenmaßnahmen zu definieren und umzusetzen.
