@@ -52,14 +52,25 @@ img {
   border:1px solid #cccccc;
 }
 
-strong {
+a:link,
+a:active
+{
+  color: #24244c;
+}
+
+a:hover {
   color: #ff4d67;
+}
+
+a:visited {
+  color: #cccccc;
 }
 
 body {
   font-family: FFMarkWebProBook;
   max-width: 960px;
   margin: 0 auto;
+  color: #24244c;
 }
 
 img.card-image {
@@ -99,8 +110,13 @@ img.card-image {
   margin-top: 1em;
 }
 
-#footer {
+#contributors {
   margin-top: 1em;
+}
+
+#footer {
+  margin-top: 2em;
+  margin-bottom: 1em;
   text-align: center;
 }
 
