@@ -80,22 +80,13 @@ title: cards42 Homepage
     <div id="contributors">
 
         <h2>Mitwirkende</h2>
-        <ul>
-            <li>Markus (Idee, Erstellung und Erstdesign)</li>
-            <li>Sonja (Re-Design)</li>
-            <li>Tobias (CSS-Optimierungen und Texte)</li>
-            <li>Lisa (Texte)</li>
-            <li>Ben (Kartenideen)</li>
-            <li>Simon (Kartenideen)</li>
-            <li>Simon 2 (Kartenideen)</li>
-        </ul>
+        {% capture contributors %}{% include contributors.md %}{% endcapture %}
+        {{ contributors | markdownify }}
     </div>
 
     <div id="footer">
         &copy; 2019 <a href="https://innoq.com/">innoQ Deutschland GmbH</a>
     </div>
-
-
 
 </body>
 
