@@ -5,6 +5,12 @@ name: Die 8-Stunden-Torte
 
 ...und plötzlich war der Tag schon wieder vorbei. Aber was hast Du bewegt? Diese Zeittorte hilft Dir zu sehen, worin Du Deine wertvolle Zeit investierst:
 
-* Wie hart am Anschlag bist Du ausgelastet?
 * Nutzt Du Deine Zeit auch wirklich effektiv?
 * Welche der Zeitslots kannst Du einfach loswerden?
+* Wie hart am Anschlag bist Du ausgelastet?
+
+Beurteile Deine genutzte Zeit auch danach, ob Du von der Arbeit getrieben bist oder ob Du über die Zeit selbst bestimmen kannst:
+
+* Welche Zeit investierst Du für zukunftsgerichtete Arbeit?
+* Wie viel Zeit verschwendest Du mit ungeplanten Arbeiten?
+* Welche Zeit geht für Routinearbeiten drauf?
