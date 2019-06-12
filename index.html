@@ -79,10 +79,13 @@ title: cards42 Homepage
     </div>
 
     {% for i in site.info %}
-    <div class="info-section">
-        
-        <h2>{{ i.title }}</h2>
-        {{ i.content | markdownify }}
+    <div class="section info-section">
+        <div class="group">
+            <div class="col span_2_of_2">        
+                <h2>{{ i.title }}</h2>
+                {{ i.content | markdownify }}
+            </div>
+        </div>
     </div>
     {% endfor %}
 
