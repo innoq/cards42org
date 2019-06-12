@@ -78,6 +78,13 @@ img.card-image {
   max-height:70%;
 }
 
+img.faq-image {
+  max-width: 50%;
+  max-height: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
 .font250 {
   font-size: 250%;
 }
