@@ -79,6 +79,8 @@ img.card-image {
 }
 
 img.faq-image {
+  max-width:70%;
+  max-height:70%;
   display: block;
   margin: 0 auto;
 }
