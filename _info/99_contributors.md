@@ -8,3 +8,5 @@ title: Mitwirkende
 * Ben (Kartenideen, Reviews)
 * Simon (Kartenideen)
 * Simon 2 (Kartenideen)
+
+Auch Du kannst Teil unserer Community werden. Gerne kannst Du uns über [Gitter.im](https://gitter.im/cards42/community) erreichen!
