@@ -7,7 +7,7 @@ title: cards42 Homepage
 <head>
     <meta charset="utf-8">
     <title>{{page.title}}</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
     <link rel="shortcut icon" type="image/png" href="favicon.png">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
 </head>
@@ -78,12 +78,13 @@ title: cards42 Homepage
 
     </div>
 
-    <div id="contributors">
-
-        <h2>Mitwirkende</h2>
-        {% capture contributors %}{% include contributors.md %}{% endcapture %}
-        {{ contributors | markdownify }}
+    {% for i in site.info %}
+    <div class="info-section">
+        
+        <h2>{{ i.title }}</h2>
+        {{ i.content | markdownify }}
     </div>
+    {% endfor %}
 
     <div id="footer">
         &copy; 2019 <a href="https://innoq.com/">innoQ Deutschland GmbH</a> &vert; <a href="https://www.innoq.com/de/datenschutz">Datenschutz</a> &vert; <a href="https://www.innoq.com/de/impressum/#innoqdeutschlandgmbh">Impressum</a>

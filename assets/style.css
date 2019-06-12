@@ -110,12 +110,12 @@ img.card-image {
   margin-top: 1em;
 }
 
-#contributors {
-  margin-top: 1em;
+.info-section {
+  margin-top: 2em;
 }
 
 #footer {
-  margin-top: 2em;
+  margin-top: 3em;
   margin-bottom: 1em;
   text-align: center;
 }
