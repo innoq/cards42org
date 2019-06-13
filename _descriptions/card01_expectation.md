@@ -1,5 +1,5 @@
 ---
-name: ResourceAllocationExpection
+name: ResourceAllocationExpectation
 ---
 Oft sind wir in unserer eigene Welt mit all ihren Beschränkungen gefangen. Wir sind darauf konditioniert, uns bescheiden zu geben &ndash; bescheiden sind damit dann auch unsere Lösungen.
 
