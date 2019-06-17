@@ -48,10 +48,6 @@ h6 {
   font-weight: normal;
 }
 
-img {
-  border:1px solid #cccccc;
-}
-
 a:link,
 a:active
 {
@@ -73,7 +69,13 @@ body {
   color: #24244c;
 }
 
+img.card-header {
+  width:100%;
+  max-width:600px;
+}
+
 img.card-image {
+  border:1px solid #cccccc;
   max-width:70%;
   max-height:70%;
 }
