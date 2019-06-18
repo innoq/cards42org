@@ -7,5 +7,3 @@ title: Mitwirkende
 * [Lisa Maria Moritz](https://twitter.com/Teapot4181) (Texte)
 * [Ben Wolf](https://twitter.com/ichaos1985) (Kartenideen, Reviews)
 * [Simon Harrer](https://twitter.com/simonharrer) (Kartenideen)
-
-Auch Du kannst Teil unserer cards42-Community werden. Gerne kannst Du uns über [Gitter.im](https://gitter.im/cards42/community) erreichen!
