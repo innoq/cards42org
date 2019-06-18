@@ -69,6 +69,13 @@ body {
   color: #24244c;
 }
 
+img.sponsor-banner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+}
+
 img.card-header {
   width:100%;
   max-width:600px;
@@ -172,12 +179,20 @@ img.faq-image {
     margin-left: 1%;
   }
 
+  img.mobile-hide {
+    display: none !important;
+  }
+
   img.card-image {
     max-width:98%;
     max-height:98%;
   }
 
-  .span_2_of_2, .span_1_of_2 { width: 100%; }
+  .span_2_of_2, .span_1_of_2 {
+    width: 100%;
+  }
 }
+
+
 
 /* END generated */
