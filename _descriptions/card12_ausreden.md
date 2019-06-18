@@ -8,4 +8,4 @@ Eine gute Dokumentation hilft nicht nur anderen, sondern auch der schreibenden P
 **Weitere Informationen**
 
 * [Offizielle Seite von arc42](https://arc42.org/)
-* [Primer - Softwarearchitekturen pragmatisch dokumentieren](https://leanpub.com/arc42-primer)
+* Buch [Primer - Softwarearchitekturen pragmatisch dokumentieren](https://leanpub.com/arc42-primer)
