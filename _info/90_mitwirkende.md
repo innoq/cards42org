@@ -1,9 +1,9 @@
 ---
 title: Mitwirkende
 ---
-* [Markus Harrer](https://twitter.com/feststelltaste) (Idee, Erstellung und Erst-Design)
-* [Sonja Scheungrab](https://twitter.com/multebaerr) (Re-Design und Druck)
+* [Markus Harrer](https://www.innoq.com/de/staff/markus-harrer/) (Idee, Erstellung und Erst-Design)
+* [Sonja Scheungrab](https://www.innoq.com/de/staff/sonja-scheungrab/) (Re-Design und Druck)
 * [Tobias Erdle](https://twitter.com/erdlet) (CSS-Optimierungen und Texte)
-* [Lisa Maria Moritz](https://twitter.com/Teapot4181) (Texte)
-* [Ben Wolf](https://twitter.com/ichaos1985) (Kartenideen, Reviews)
-* [Simon Harrer](https://twitter.com/simonharrer) (Kartenideen)
+* [Lisa Maria Moritz](https://www.innoq.com/de/staff/lisa-moritz/) (Texte)
+* [Ben Wolf](https://www.innoq.com/de/staff/benjamin-wolf/) (Kartenideen, Reviews)
+* [Simon Harrer](https://www.innoq.com/de/staff/dr-simon-harrer/) (Kartenideen)
