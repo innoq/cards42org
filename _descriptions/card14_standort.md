@@ -19,5 +19,5 @@ Identifiziert ebenfalls Risiken, die sich in eurer Software  verbergen:
 * Welche ungünstigen Entwicklungen in eurem Umfeld gibt es?
 * Wo lauern mögliche Gefahren?
 
-**Weitere Informationen**
+**Mehr Informationen**
 * [SWOT Analysis auf gamestorming.com](https://gamestorming.com/swot-analysis/)

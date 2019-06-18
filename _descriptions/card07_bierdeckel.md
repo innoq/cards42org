@@ -12,5 +12,6 @@ Versucht, die wichtigsten Strukturen eurer Architektur kompakt auf der Karte zu 
 
 Diskutiert euere Vorgehen beim Zeichnen und die Ergebnisse. Überlegt euch, welche Maßnahmen ihr für eine noch klarere Strukturierung eures Softwaresystems vornehmen könnt.
 
+**Mehr Informationen**
 * Das [Dokumentationsschubladensystem arc42](https://arc42.org/) bietet eine bewährte Struktur, wenn ihr mehr dokumentieren wollt
 * Das Buch [Softwarearchitekturen dokumentieren und kommunizieren](http://www.swadok.de/) hilft beim Einstieg in eine leichtgewichtige Softwarearchitekturdokumentation

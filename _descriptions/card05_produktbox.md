@@ -12,3 +12,6 @@ Die Produktbox hilft euch, wichtige Antworten für eure Software aus der Sicht d
 
 Durch die Beantwortung solcher Fragen bekommt ihr ein besseres Gefühl dafür, wofür ihr die Software wirklich entwickelt.
 
+**Mehr Informationen**
+* Methode [Design the Box](https://gamestorming.com/design-the-box/) von gamestorming.com
+

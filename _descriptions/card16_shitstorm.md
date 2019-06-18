@@ -9,5 +9,5 @@ Geht entsprechend der Ansichten über euer Softwaresystem auf die jeweiligen Per
 * Wen könnt ihr besser in die Pflicht nehmen?
 * Wer kann euch helfen, wenn ihr etwas eskalieren müsst?
 
-**Weitere Informationen**
+**Mehr Informationen**
 * Verwandte Methode der [Stakeholder Analysis](https://gamestorming.com/stakeholder-analysis/)

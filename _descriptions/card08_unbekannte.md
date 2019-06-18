@@ -5,6 +5,6 @@ Vermutlich hat jede an einem Softwareprojekt beteiligte Person in einer technisc
 
 Was denkt ihr, bewegt diese Person? Versucht euch, in ihre Lage zu versetzen und überlegt, was die Motivation hinter dem Verhalten des Stakeholders ist. Wie könnt ihr auf seine Bedürfnisse eingehen, um die Situation produktiver und für alle angenehmer zu gestalten?
 
-**Weitere Informationen**
+**Mehr Informationen**
 * Der [Mini Quality Attribute Workshop](https://re-magazine.ireb.org/articles/discover-quality-requirements-with-the-mini-qaw) besteht im Kern darin, andere Stakeholder und ihre Bedürfnisse besser zu verstehen
 * Artikel über [Empathy Driven Development](https://www.empathy-driven-development.com/why-empathy-will-transform-tech/) von Andrea Goulet
