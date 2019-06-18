@@ -1,7 +1,7 @@
 ---
 title: Mitwirkende
 ---
-* Markus (Idee, Erstellung und Erst-Design)
+* [Markus Harrer](https://twitter.com/feststelltaste) (Idee, Erstellung und Erst-Design)
 * Sonja (Re-Design)
 * Tobias (CSS-Optimierungen und Texte)
 * Lisa (Texte)
