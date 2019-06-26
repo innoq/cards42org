@@ -6,7 +6,7 @@ Dies ist das Repository für die Homepage [cards42.org](https://cards42.org). Da
 
 Die Karten geben kurze Denkanstöße für festgefahrene Situationen und helfen, neues Licht auf schwierige Herausforderungen zu werfen.
 
-Hintergründe und mehr Details zu den Karten sind auf [cards42.org](https://cards42.org) zu finden.^
+Hintergründe und mehr Details zu den Karten sind auf [cards42.org](https://cards42.org) zu finden.
 
 ## Wie kann ich hier mitarbeiten?
 
