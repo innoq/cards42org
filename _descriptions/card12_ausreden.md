@@ -9,3 +9,4 @@ Eine gute Dokumentation hilft nicht nur anderen, sondern auch der schreibenden P
 
 * [Offizielle Seite von arc42](https://arc42.org/)
 * Buch [Primer - Softwarearchitekturen pragmatisch dokumentieren](https://leanpub.com/arc42-primer)
+* Leichtgewichtiges, entwicklerfreundliches Dokumentieren mit dem [Docs-As-Code-Ansatz](https://docs-as-co.de/)
