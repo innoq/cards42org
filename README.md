@@ -39,9 +39,7 @@ Die Seite wird über [Jekyll](https://jekyllrb.com/) erzeugt.
 
 ### Bilder
 
-Die PNG-Bilder werden per Ghostscript erzeugt.
-
-ie PNG-Bilder werden per Ghostscript erzeugt.
+Die PNG-Bilder werden per Ghostscript aus den Druck-PDFs von INNOQ erzeugt.
 
 Schritt 1: Bei der Original-PDF müssen zuerst die Druckränder entfernt werden:
 
