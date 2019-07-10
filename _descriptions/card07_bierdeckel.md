@@ -1,7 +1,7 @@
 ---
 name: Meine Architektur
 ---
-<q>Das System ist zu komplex, um es kurz mal eben aufzumalen!" &ndash; diesen oder ähnliche Sätze hat mit Sicherheit jede\*r Entwickler\*in schon einmal gehört.
+<q>Das System ist zu komplex, um es kurz mal eben aufzumalen!</q> &ndash; diesen oder ähnliche Sätze hat mit Sicherheit jede\*r Entwickler\*in schon einmal gehört.
 
 Eine gut strukturierte und klare Softwarearchitektur muss jedoch auf einen Bierdeckel passen.
 
