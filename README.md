@@ -31,7 +31,7 @@ Die Kartenbilder (unter `cards`) und deren Beschreibungen (unter `_descriptions`
 
 Über Jekyll / Liquid werden in der `index.html` so die entsprechenden Informationen aus den Dateinamen extrahiert.
 
-## Wie wir das gebaut?
+## Wie wird das gebaut?
 
 ### Website
 
