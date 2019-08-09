@@ -58,6 +58,29 @@ title: cards42 - Die Mitmach-Karten für Softwarearchitekt*innen
     <div class="section">
         <div class="group">
             <div class="col span_2_of_2">
+                <h2 id="uebersicht">Übersicht</h2>
+                <code>
+                    {% comment %} techdebt: Hohe Code-Duplikation mit der untereren Erzeugung der Kartenauflistung {% endcomment %}
+                
+                    {% for card in site.descriptions %} 
+                    {% assign path_tokens = card.path | split: '/' %}
+                    {% assign file_tokens = path_tokens[1] | split: '_' %}
+                    {% assign tag = file_tokens[1] | remove: ".md" %}
+                    {% assign tags = tags | append: tag | append: " " %}
+                    {% endfor %}
+                    
+                    {% assign sorted_tags = tags | split: " " | sort %}
+                    {% for sorted_tag in sorted_tags %}
+                    <a href="#{{sorted_tag}}">#{{sorted_tag}}</a> 
+                    {% endfor %}
+
+                </code>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="group">
+            <div class="col span_2_of_2">
                 <h2>Karten</h2>
             </div>
         </div>
@@ -71,8 +94,8 @@ title: cards42 - Die Mitmach-Karten für Softwarearchitekt*innen
     <div class="section">
         <div class="group">
             <div class="col span_2_of_2">
-                <h3 id="{{tag}}" class="card-title">{{ card.name }}</h3>
-                <code>#{{tag}}</code>
+                <h3 id="{{tag}}" class="card-title">{{ card.name }}   <a href="#uebersicht" class="no-decoration triangle">&#9650;</a></h3> 
+                <a href="#{{tag}}" class="no-decoration"><code>#{{tag}}</code></a>
             </div>
         </div>
         <div class="group">

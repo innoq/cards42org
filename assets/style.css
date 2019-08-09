@@ -62,6 +62,11 @@ a:visited {
   color: #cccccc;
 }
 
+a.no-decoration {
+  color: #24244c;
+  text-decoration: none; 
+}
+
 body {
   font-family: FFMarkWebProBook;
   max-width: 960px;
@@ -124,6 +129,10 @@ img.faq-image {
 
 .card-title {
   margin-top: 1em;
+}
+
+.triangle {
+  color: #cccccc !important;
 }
 
 .info-section {
