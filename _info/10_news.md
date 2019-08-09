@@ -1,6 +1,8 @@
 ---
 title: News
 ---
+09.08.2019: Wir haben an der Performance und an der Usability gearbeitet
+
 07.08.2019: Das Review des Redesigns des 2. Packs ist erfolgt
 
 08.07.2019: Das Repo zur cards42.org-Seite ist nun public ([Tweet](https://twitter.com/cards42org/status/1148626770066886658))
