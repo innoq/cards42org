@@ -12,8 +12,10 @@ title: cards42 - Die Mitmach-Karten für Softwarearchitekt*innen
     <meta content="width=device-width, initial-scale=1" name="viewport" />
 
     <script src="https://assets.innoq.com/chenin.js"></script>
-    <script>
-        new Chenin({siteId: 3, hashMode: true})
+    <script src="https://rawgit.com/w3c/IntersectionObserver/master/polyfill/intersection-observer.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>"
+    <script type="text/javascript">
+        new Chenin({siteId: 3, hashMode: true});
     </script>
     
 </head>
@@ -100,7 +102,7 @@ title: cards42 - Die Mitmach-Karten für Softwarearchitekt*innen
         </div>
         <div class="group">
             <div class="col span_1_of_2">
-                <img class="card-image" src="../cards/{{image}}.png"
+                <img class="card-image lozad" data-src="../cards/{{image}}.png"
                     alt="Das Bild für die Karte mit dem Namen {{card.name}}" />
             </div>
             <div class="col span_1_of_2">
@@ -125,6 +127,12 @@ title: cards42 - Die Mitmach-Karten für Softwarearchitekt*innen
         Unterstützt von <a href="https://innoq.com/">innoQ Deutschland GmbH</a> &vert; <a href="https://www.innoq.com/de/datenschutz">Datenschutz</a> &vert; <a href="https://www.innoq.com/de/impressum/#innoqdeutschlandgmbh">Impressum</a> &vert; <a href="https://www.twitter.com/cards42org">Twitter</a>  
     </div>
 
+
+    <script>
+        // Init lazy loading for images
+        var observer = lozad();
+        observer.observe();
+    </script>
 </body>
 
 </html>
