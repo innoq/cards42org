@@ -3,7 +3,7 @@ name: Businessability
 ---
 
 Wer kennt es nicht: Man darf ein neues Projekt starten und hat die Qual der Wahl bei
-der Auswahl der zu nutzenden Technologie. Als Techniker*in nimmt man natürlich am liebsten
+der Auswahl der zu nutzenden Technologie. Als Techniker\*in nimmt man natürlich am liebsten
 die neueste Sprache oder das neueste und hipste Framework, aber ist das wirtschaftlich
 überhaupt vertretbar? Häufig gibt es für neue Technik kaum Support, wenige Spezialisten 
 und hier und da muss auch das Rad erst wieder neu erfunden werden. Das alles kostet Geld &ndash;
