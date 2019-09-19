@@ -10,7 +10,7 @@ Die ersten gedruckten Kartenpacks gibt es auf Konferenzen, wo INNOQ mit vertrete
 
  Markus ging eines Abends (noch nachhaltig beeindruckt von einem INNOQ Event) in eine Buchhandlung und entdeckte dort die ["50 Karten: Kunterbunte Mitmach-Karten für das Handgepäck"](https://www.usborne.de/usborne-verlag-buecher/katalog/produkt/5/8810/50-karten-kunterbunte-mitmach-karten-fuer-das-handgepaeck/). Diese Karten sollen Kinder zum Nachdenken über verschiedenste Dinge anregen. Markus hat sich von diesem Konzept für die "Mitmach-Karten für Softwarearchitekten*innen" inspirieren lassen und so entstanden die ersten Ideen für cards42.
 
-<img src="../assets/cards42_prototyp.jpg" class="faq-image" alt="Ein Foto welches die ersten Kartenideen zeigt"/>
+<img src="assets/cards42_prototyp.jpg" class="faq-image" alt="Ein Foto welches die ersten Kartenideen zeigt"/>
 
 ### Warum der Name "cards42"?
 
