@@ -1,9 +1,9 @@
 ---
 name: Risikominimierung
 ---
-Auch wenn wir es ungerne hören, Risiken begleiten unsere Projekte
-vom ersten Moment an. Häufig wird jedoch vergessen, sowohl diese Risiken, als auch die
-Maßnahmen zur Minimierung jener, entsprechend zu dokumentieren. Dies kann später fatale Folgen
+Auch wenn wir es ungerne hören: Risiken begleiten unsere Projekte
+vom ersten Moment an. Häufig wird jedoch vergessen, sowohl diese Risiken, als auch deren Gegenmaßnahmen, 
+entsprechend zu dokumentieren. Dies kann später fatale Folgen
 haben, wenn beispielsweise auf zu fragile Nachbarsysteme gesetzt, oder vielleicht
 auch relevante Regulatorik übersehen wird.
 
