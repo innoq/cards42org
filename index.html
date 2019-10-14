@@ -117,7 +117,7 @@ title: cards42 - Die Mitmach-Karten für Softwarearchitekt*innen
     <div class="section info-section">
         <div class="group">
             <div class="col span_2_of_2">        
-                <h2 id="section_{{i.title | url_encode }}">{{ i.title }}</h2>
+                <h2 id="{{i.title | url_encode | downcase }}">{{ i.title }}</h2>
                 {{ i.content | markdownify }}
             </div>
         </div>
