@@ -1,7 +1,7 @@
 ---
 name: Investment-Sanity-Checker
 ---
-Investitionen sagen viel aus über den Status eines Softwareprojektes aus.
+Investitionen sagen viel über den Status eines Softwareprojektes aus.
 Häufig müssen Architekt\*innen für technische Themen (*wichtig*) gegenüber
 den Produktthemen (*dringenden*) vertreten.
 
