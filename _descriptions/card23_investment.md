@@ -12,10 +12,10 @@ Hotspots bei Fehlern sind gute Kandidaten für Refactorings. (Empfehlung < 10%)
 somit werden die Kosten für Fehlerbehebung sowie Entwicklungszeiten neuer Themen reduziert. (Empfehlung 10-15%)
 
 **Neue Features** - Die Entwicklung neuer Funktionen bringt den Geschäftswert,
-daher sollte hier am meisten Investiert werden. (Empfehlung > 50%)
+daher sollte hier am meisten investiert werden. (Empfehlung > 50%)
 
-**Architekturarbeit** - Kontinuierliche Arbeit an der Architektur halten die Software am Leben
-und ermöglicht das adressieren neuer Zukunfts-Trends/Anforderungen. (Empfehlung 15-20% bei Großprojekten)   
+**Architekturarbeit** - Kontinuierliche Arbeiten an der Architektur halten die Software am Leben
+und ermöglichen das Adressieren neuer Zukunftstrends/Anforderungen. (Empfehlung 15-20% bei Großprojekten)   
 
 **Mehr Informationen**
 * [Shift Left](https://smartbear.de/learn/automated-testing/shifting-left-in-testing/)
