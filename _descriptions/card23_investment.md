@@ -5,7 +5,7 @@ Investitionen sagen viel über den Status eines Softwareprojektes aus.
 Häufig müsst ihr als Architekt\*innen technische Themen (*wichtig*) gegenüber
 den Produktthemen (*dringend*) vertreten.
 
-**Support/Bugfixing** - Fehler sind günstiger, je eher sie gefunden werden.
+**Support/Bugfixing** - Fehler sind günstiger, je eher sie im Zyklus der Softwareentwicklung gefunden werden.
 Hotspots bei Fehlern sind gute Kandidaten für Refactorings.
 Ihr solltet hier idealerweise einen Wert unterhalb von 10% haben – sehr wahrscheinlich
 ist der Wert aber größer.
