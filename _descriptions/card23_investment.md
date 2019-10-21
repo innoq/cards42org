@@ -2,7 +2,7 @@
 name: Investment-Sanity-Checker
 ---
 Investitionen sagen viel aus über den Status eines Softwareprojektes aus.
-Häufig müssen Architekten für technische Themen (*wichtig*) gegenüber
+Häufig müssen Architekt\*innen für technische Themen (*wichtig*) gegenüber
 den Produktthemen (*dringenden*) vertreten.
 
 **Supporting/Bugfixing** - Fehler  günstiger je früher sie gefunden werden ("Shift Left").
