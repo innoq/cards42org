@@ -10,14 +10,20 @@ Hotspots bei Fehlern sind gute Kandidaten für Refactorings.
 Ihr solltet hier idealerweise einen Wert unterhalb von 10% haben – sehr wahrscheinlich
 ist der Wert aber größer.
 
-**Technische Verbesserungen** - Reduzierung der technischen Schulden verbessert die Qualität der Software,
-somit werden die Kosten für Fehlerbehebung sowie Entwicklungszeiten neuer Themen reduziert. (Empfehlung 10-15%)
+**Technische Verbesserungen** - Reduziert ihr technischen Schulden eures Systems,
+so verbessert ihr dadurch die Qualität der Software und reduziert gleichzeitig
+die Kosten für Fehlerbehebung sowie Entwicklungszeiten neuer Themen.  
+Empfehlung: 10-15%.
 
 **Neue Features** - Die Entwicklung neuer Funktionen bringt den Geschäftswert,
-daher sollte hier am meisten investiert werden. (Empfehlung > 50%)
+daher solltet ihr hier am meisten investieren.
+Mindestens 50% oder mehr eurer Entwicklungszeit solltet ihr darauf verwenden,
+neuen Wert zu schaffen.
 
-**Architekturarbeit** - Kontinuierliche Arbeiten an der Architektur halten die Software am Leben
-und ermöglichen das Adressieren neuer Zukunftstrends/Anforderungen. (Empfehlung 15-20% bei Großprojekten)   
+**Architekturarbeit** - Nur durch kontinuierliche Arbeiten an der Architektur
+könnt ihr die Software am Leben halten und ermöglicht das Adressieren
+neuer Zukunftstrends/Anforderungen. Ein Empfehlungswert liegt hier bei 15-20%
+bei größeren Projekten.
 
 **Mehr Informationen**
 * [aim42 - Architecture Improvement Method](https://www.aim42.org/)
