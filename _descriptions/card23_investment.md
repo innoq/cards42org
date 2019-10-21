@@ -5,7 +5,7 @@ Investitionen sagen viel aus über den Status eines Softwareprojektes aus.
 Häufig müssen Architekt\*innen für technische Themen (*wichtig*) gegenüber
 den Produktthemen (*dringenden*) vertreten.
 
-**Supporting/Bugfixing** - Fehler  günstiger je früher sie gefunden werden ("Shift Left").
+**Supporting/Bugfixing** - Fehler sind günstiger, je eher sie gefunden werden ("Shift Left").
 Hotspots bei Fehlern sind gute Kandidaten für Refactorings. (Empfehlung < 10%)
 
 **Technische Verbesserungen** - Reduzierung der technischen Schulden verbessert die Qualität der Software,
