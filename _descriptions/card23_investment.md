@@ -20,5 +20,5 @@ daher sollte hier am meisten investiert werden. (Empfehlung > 50%)
 und ermöglichen das Adressieren neuer Zukunftstrends/Anforderungen. (Empfehlung 15-20% bei Großprojekten)   
 
 **Mehr Informationen**
-* [Shift Left](https://smartbear.de/learn/automated-testing/shifting-left-in-testing/)
+* [Studie von IBM zu Kosten von Fehlern und deren Behebung](https://www.researchgate.net/figure/IBM-System-Science-Institute-Relative-Cost-of-Fixing-Defects_fig1_255965523)
 * [aim42 - Architecture Improvement Method](https://www.aim42.org/)
