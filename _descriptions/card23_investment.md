@@ -13,7 +13,7 @@ ist der Wert aber größer.
 **Technische Verbesserungen** &ndash; Reduziert ihr technischen Schulden eures Systems,
 so verbessert ihr dadurch die Qualität der Software und reduziert gleichzeitig
 die Kosten für Fehlerbehebung sowie Entwicklungszeiten neuer Themen.  
-Empfehlung: 10-15%.
+Die Empfehlung liegt bei etwa 10-15%.
 
 **Neue Features** &ndash; Die Entwicklung neuer Funktionen bringt den Geschäftswert,
 daher solltet ihr hier am meisten investieren.
