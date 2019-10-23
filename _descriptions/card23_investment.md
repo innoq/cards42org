@@ -1,16 +1,29 @@
 ---
 name: Investment-Sanity-Checker
 ---
-Investitionen sagen viel aus über den Status eines Softwareprojektes aus. H&auml;ufig m&uuml;ssen Architekten f&uuml;r technische Themen (*wichtig*) gegen&uuml;ber den Produktthemen (*dringenden*) vertreten.
+Investitionen sagen viel über den Status eines Softwareprojektes aus.
+Häufig müsst ihr als Architekt\*innen technische Themen (*wichtig*) gegenüber
+den Produktthemen (*dringend*) vertreten.
 
-**Supporting/Bugfixing** - Fehler  g&uuml;nstiger je fr&uuml;her sie gefunden werden ("Shift Left"). Hotspots bei Fehlern sind gute Kandidaten f&uuml;r Refactorings. (Empfehlung &lt; 10%)
+**Support/Bugfixing** &ndash; Fehler sind oft leichter zu behen, je eher sie im Zyklus der Softwareentwicklung gefunden werden.
+Hotspots bei Fehlern sind gute Kandidaten für Refactorings.
+Ihr solltet hier idealerweise einen Wert unterhalb von 10% haben – sehr wahrscheinlich
+ist der Wert aber größer.
 
-**Technische Verbesserungen** - Reduzierung der technischen Schulden verbessert die Qualit&auml;t der Software, somit werden die Kosten f&uuml;r Fehlerbehebung sowie Entwicklungszeiten neuer Themen reduziert. (Empfehlung 10-15%)
+**Technische Verbesserungen** &ndash; Reduziert ihr technischen Schulden eures Systems,
+so verbessert ihr dadurch die Qualität der Software und reduziert gleichzeitig
+die Kosten für Fehlerbehebung sowie Entwicklungszeiten neuer Themen.  
+Die Empfehlung liegt bei etwa 10-15%.
 
-**Neue Features** - Die Entwicklung neuer Funktionen bringt den Gesch&auml;ftswert, daher sollte hier am meisten Investiert werden. (Empfehlung &gt; 50%)
+**Neue Features** &ndash; Die Entwicklung neuer Funktionen bringt den Geschäftswert,
+daher solltet ihr hier am meisten investieren.
+Mindestens 50% oder mehr eurer Entwicklungszeit solltet ihr darauf verwenden,
+neuen Wert zu schaffen.
 
-**Architekturarbeit** - Kontinuierliche Arbeit an der Architektur halten die Software am Leben und erm&ouml;glicht das adressieren neuer Zukunfts-Trends/Anforderungen. (Empfehlung 15-20% bei Gro&szlig;projekten)   
+**Architekturarbeit** &ndash; Nur durch kontinuierliche Arbeiten an der Architektur
+könnt ihr die Software am Leben halten und ermöglicht das Adressieren
+neuer Zukunftstrends sowie Anforderungen. Ein Empfehlungswert liegt hier bei 15-20%
+in größeren Projekten.
 
 **Mehr Informationen**
-* [Shift Left](https://smartbear.de/learn/automated-testing/shifting-left-in-testing/)
 * [aim42 - Architecture Improvement Method](https://www.aim42.org/)
