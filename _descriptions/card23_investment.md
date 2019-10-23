@@ -22,7 +22,7 @@ neuen Wert zu schaffen.
 
 **Architekturarbeit** &ndash; Nur durch kontinuierliche Arbeiten an der Architektur
 könnt ihr die Software am Leben halten und ermöglicht das Adressieren
-neuer Zukunftstrends/Anforderungen. Ein Empfehlungswert liegt hier bei 15-20%
+neuer Zukunftstrends sowie Anforderungen. Ein Empfehlungswert liegt hier bei 15-20%
 in größeren Projekten.
 
 **Mehr Informationen**
