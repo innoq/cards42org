@@ -1,6 +1,10 @@
 ---
 title: News
 ---
+04.11.2019: Das 2. Set ist on- und offline verfügbar!
+
+11.10.2019: Die Karten des 2. Sets sind im finalen Review.
+
 09.08.2019: Wir haben an der Performance und an der Usability gearbeitet
 
 07.08.2019: Das Review des Redesigns des 2. Packs ist erfolgt
