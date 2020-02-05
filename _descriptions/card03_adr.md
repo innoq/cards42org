@@ -11,3 +11,4 @@ Mit diesem Template könnte ihr üben, eure Entscheidungen nach den Ideen der AD
 
 * [Einstiegsseite für das Thema ADR](https://adr.github.io/)
 * [Initiale Vorstellung der Idee von ADRs](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions)
+* [Beispiele von ADRs des Open-Source-Projekts Arachne Web Framework](https://github.com/arachne-framework/architecture)
