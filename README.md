@@ -35,7 +35,21 @@ Die Kartenbilder (unter `cards`) und deren Beschreibungen (unter `_descriptions`
 
 ### Website
 
-Die Seite wird über [Jekyll](https://jekyllrb.com/) erzeugt.
+Die Seite wird über [Jekyll](https://jekyllrb.com/) erzeugt. Bei jeder Änderung wird die Website über GitHub neu erzeugt.
+
+Eine lokale Installation von Jekyll ist hiermit möglich:
+
+```
+gem install bundler jekyll
+```
+
+Anschließend kann die Website lokal mit dem Befehl
+
+```
+jekyll serve
+```
+
+gebaut und unter <https://localhost:4000/> betrachtet werden.
 
 ### Bilder
 
