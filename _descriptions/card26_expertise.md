@@ -3,7 +3,7 @@ name: How to learn X
 ---
 
 Niemand von uns kann alles, aber sicher kann jede/r etwas besonders gut.
-Dieses besondere Wissen zu teilen hilft euch, euer Team noch besser zu machen
+Dieses besondere Wissen zu teilen, hilft euch, euer Team noch besser zu machen
 und Wissensinseln zu verringern.
 
 Was ist also euer absolutes Expertenthema? Schreibt dieses Thema &ndash; jede und jeder für sich &ndash; auf eine Karte und überlegt

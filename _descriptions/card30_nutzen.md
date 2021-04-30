@@ -14,7 +14,7 @@ rechnet mit ca. sechs Wochen Entwicklungszeit? Dies wird für die Stakeholder se
 &ndash; hoffentlich! &ndash; keine spürbaren Auswirkungen haben,
 hindert euch aber gleichzeitig daran, in dieser Zeit neue Features zu entwickeln.
 
-Ihr habt vor, eine weitere, neue Bezahlmethode in euer System zu integrieren,
+Ihr habt vor, eine weitere, neue Bezahlmethode in euerem System zu integrieren,
 seid aber nicht sicher, ob dafür neun Wochen Entwicklung verwendet werden können?
 Viele eurer Anwender\*innen könnten dankbar sein, dass sie eine neue Möglichkeit bekommen,
 Produkte bei euch zu bezahlen. Dieses Feature hat also einen sehr großen Nutzen.

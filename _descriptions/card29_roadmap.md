@@ -1,7 +1,7 @@
 ---
 name: Technologie-Roadmap
 ---
-Kennst ihr das? Ihr kommt ganz frisch von einer Konferenz und möchtet den ganzen neuen Kram jetzt und sofort bei euch umsetzen. Dann aber denkt ihr darüber nach, und irgendetwas hindert euch dann doch daran: der ganze vorhandene alte Kram!
+Kennt ihr das? Ihr kommt ganz frisch von einer Konferenz und möchtet den ganzen neuen Kram jetzt und sofort bei euch umsetzen. Dann aber denkt ihr darüber nach, und irgendetwas hindert euch dann doch daran: der ganze vorhandene alte Kram!
 
 Es sind oft die vorhandenen Rahmenbedingungen, welche es (zumindest jetzt) schwer machen, den Tech-Stack zu aktualisieren. Aber wie könnt ihr frühzeitig kommunizieren, dass ihr schon die ein oder andere neue Sache im Blick habt?
 

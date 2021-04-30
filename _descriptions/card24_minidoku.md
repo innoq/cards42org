@@ -7,7 +7,7 @@ mit einer Dokumentation anzufangen. Dass dies aber auch ganz einfach sein kann, 
 Minidoku.
 
 Beginne damit, den geschäftlichen Grund der Software zu nennen oder kurz zu beschreiben. Damit
-ist klar gestellt, warum man diese Software überhaupt braucht. Anschließend notiere die drei wichtigsten
+ist klargestellt, warum man diese Software überhaupt braucht. Anschließend notiere die drei wichtigsten
 Qualitätsmerkmale, geordnet nach ihrer Priorität. Zum Schluss werden noch die wichtigsten Design-Entscheidungen
 skizziert, damit diese nachhaltig dokumentiert und nachvollziehbar sind.
 
