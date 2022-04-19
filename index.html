@@ -71,7 +71,7 @@ title: cards42 - Die Mitmach-Karten für Softwarearchitekt*innen
             <div class="col span_2_of_2">
                 <h2 id="uebersicht">Übersicht</h2>
                 <code>
-                    {% comment %} techdebt: Hohe Code-Duplikation mit der untereren Erzeugung der Kartenauflistung {% endcomment %}
+                    {% comment %} accepted techdebt: Hohe Code-Duplikation mit der untereren Erzeugung der Kartenauflistung {% endcomment %}
                 
                     {% for card in site.descriptions %} 
                     {% assign path_tokens = card.path | split: '/' %}
