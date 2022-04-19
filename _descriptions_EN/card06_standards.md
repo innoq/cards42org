@@ -1,11 +1,12 @@
 ---
-name: Do I work according to common Development Standards?
+name: Do I work according to common development standards?
 layout: card_page
 slug: standards
 ---
-With software becoming more and more complex, more and more standards have years, which have been proven to positively influence the development and evolution of a software system. 
+Over the years, standards emerged from software systems and software development practices.
+Some of them have been proven to positively influence the development and evolution of a software system regardless the context. 
 
-Check within your team, which of these standards you are implementing and where there is a potential need to improve. In addition, think about why you have not yet addressed missing or insufficient measures.
+Check within your team which of these standards you are implementing. Where are the potential needs for improvement? In addition, think about why you have not yet addressed missing or insufficient measures.
 
 **More Information**
 
