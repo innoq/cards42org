@@ -1,5 +1,11 @@
 collections:
   descriptions:
     directory: descriptions
+  descriptions_EN:
+    directory: descriptions_EN
+    permalink: :title/
+    output: true
   info:
     directory: info
+  info_EN:
+    directory: info_EN
