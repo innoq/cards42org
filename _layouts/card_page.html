@@ -1,0 +1,62 @@
+---
+layout: default
+---
+
+{% assign card = page %}
+
+
+
+<article class="page container">
+  <div class="page-content">
+    <div class="section">
+      <div class="group">
+          <div class="col span_2_of_2">
+              <h1><span class="font250">cards<span class="red">42</span></span><span class="font100">.org</span></h1>
+    
+              <div class=" font150">
+                  <strong class="red">C</strong>ards for 
+                  <strong class="red">A</strong>nalyzing and 
+                  <strong class="red">R</strong>eflecting on 
+                  <strong class="red">D</strong>oomed 
+                  <strong class="red">S</strong>oftware
+              </div>
+              
+          </div>
+      </div>
+    </div>
+
+  <header class="page-header">
+    <h1 class="page-title">{{ card.name }}</h1>
+  </header>
+
+
+    {% assign path_tokens = card.path | split: '/' %}
+
+    {% assign file_tokens = path_tokens[1] | split: '_' %}
+    {% assign image = file_tokens[0] %}
+    {% assign tag = card.slug %}
+    <div class="section">
+        <div class="group">
+            <div class="col span_1_of_2">
+                <img class="card-image lozad" data-src="../cards_EN/{{image}}.png" />
+                <noscript><img class="card-image" src="../cards_EN/{{image}}.png" alt="The image for the card with the name {{card.name}}" /></noscript>
+                <small><br/>
+                    Download:
+                        <a href="../cards_EN/{{image}}.png" download="{{image}}_{{tag}}.png">PNG</a>
+                        {% comment %} <a href="../cards_svg_EN/{{image}}.svg" download="{{image}}_{{tag}}.svg">SVG</a>{% endcomment %}
+                </small>
+            </div>
+            <div class="col span_1_of_2">
+                {{ card.content | markdownify }}
+            </div>
+        </div>
+    </div>
+    <div class="section">
+      <div class="group">
+        <p>
+        <a href="../en/" class="no-decoration"><b>&#9668 Take me to all the other cards!</b></a>
+      </p>
+      </div>
+    </div>
+  </div>
+</article>

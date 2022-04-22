@@ -1,0 +1,26 @@
+{% assign path_tokens = card.path | split: '/' %}
+
+{% assign file_tokens = path_tokens[1] | split: '_' %}
+{% assign image = file_tokens[0] %}
+{% assign tag = card.slug %}
+<div class="section">
+    <div class="group">
+        <div class="col span_2_of_2">
+            <h3 id="{{tag}}" class="card-title">{{ card.name }}   <a href="#overview" class="no-decoration triangle">&#9650;</a> <a href="../{{tag}}" class="no-decoration triangle">&#9707;</a></h3> 
+        </div>
+    </div>
+    <div class="group">
+        <div class="col span_1_of_2">
+            <a href="../{{tag}}"><img class="card-image lozad" data-src="../cards_EN/{{image}}.png" /></a>
+            <noscript><a href="/{{tag}}"></a><img class="card-image" src="../cards_EN/{{image}}.png" alt="The image for the card with the name {{card.name}}" /></a></noscript>
+            <small><br/>
+                Download:
+                    <a href="../cards_EN/{{image}}.png" download="{{image}}_{{tag}}.png">PNG</a>
+                    {% comment %} <a href="../cards_svg/{{image}}.svg" download="{{image}}_{{tag}}.svg">SVG</a>{% endcomment %}
+            </small>
+        </div>
+        <div class="col span_1_of_2">
+            {{ card.content | markdownify }}
+        </div>
+    </div>
+</div>
