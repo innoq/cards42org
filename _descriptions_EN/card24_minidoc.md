@@ -1,7 +1,7 @@
 ---
 name: Architecture Mini Documentation
 layout: card_page
-slugs: minidocs
+slug: minidoc
 ---
 Many people associate architecture documentation with long and complex documents, mostly of questionable validity. The barriers are correspondingly high, even to start with a documentation. But this can be quite simple, as demonstrated by our Minidocu.
 
