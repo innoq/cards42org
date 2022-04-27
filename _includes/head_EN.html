@@ -10,19 +10,19 @@
 
 <head>
   <meta charset="utf-8">
-  <title>{% if card.name %}{{card.name}} - {% else %}{% endif %}cards42.org</title>
+  <title>{% if card.slug %}{{card.name}} - {% else %}{% endif %}cards42.org</title>
   <link rel="stylesheet" type="text/css" href="{{ "/assets/style.css" | prepend: site.baseurl | prepend: site.url }}">
   <link rel="shortcut icon" type="image/png" href="../favicon.png">
   <meta content="width=device-width, initial-scale=1" name="viewport" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="{% if card.name %}{{card.name}} - {% else %}{% endif %}cards42.org" />
+  <meta property="og:title" content="{% if card.slug %}{{card.name}} - {% else %}{% endif %}cards42.org" />
   <meta property="og:description" content="&quot;{% if card.name %}{{card.name}}&quot; from {% else %}{% endif %}Cards for Analyzing and Reflecting on Doomed Software" />
   <meta property="og:url" content="https://www.cards42.org/" />
   <meta property="og:site_name" content="cards42.org" />
-  <meta property="og:image" content="{% if card.name %}{{ "/cards_EN/" | prepend: site.baseurl | prepend: site.url }}{{image}}.png{% else %}{{ "/assets/cards42_preview_en.jpg" | prepend: site.baseurl | prepend: site.url }}{% endif %}" />
-  <meta property="og:image:secure_url" content="{% if card.name %}{{ "/cards_EN/" | prepend: site.baseurl | prepend: site.url }}{{image}}.png{% else %}{{ "/assets/cards42_preview_en.jpg" | prepend: site.baseurl | prepend: site.url }}{% endif %}" />
+  <meta property="og:image" content="{% if card.slug %}{{ "/cards_EN/" | prepend: site.baseurl | prepend: site.url }}{{image}}.png{% else %}{{ "/assets/cards42_preview_en.jpg" | prepend: site.baseurl | prepend: site.url }}{% endif %}" />
+  <meta property="og:image:secure_url" content="{% if card.slug %}{{ "/cards_EN/" | prepend: site.baseurl | prepend: site.url }}{{image}}.png{% else %}{{ "/assets/cards42_preview_en.jpg" | prepend: site.baseurl | prepend: site.url }}{% endif %}" />
 
-  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:type" content="{% if card.slug %}image/png{% else %}image/jpeg{% endif %}" />
   <meta property="og:image:alt" content="An overview of the cards of the cards42 project" />
 
   <script src="https://assets.innoq.com/chenin.js"></script>
