@@ -1,0 +1,207 @@
+@font-face {
+  font-family: FFMarkWebProBook;
+  font-display: swap;
+  src: url("https://assets.innoq.com/fonts/350ED6_4_unhinted_0.woff2?cachebuster=7d0a3995eec718ff34fa844413298153")
+      format("woff2"),
+    url("https://assets.innoq.com/fonts/350ED6_4_unhinted_0.woff?cachebuster=7d0a3995eec718ff34fa844413298153")
+      format("woff"),
+    url("https://assets.innoq.com/fonts/350ED6_4_unhinted_0.ttf?cachebuster=7d0a3995eec718ff34fa844413298153")
+      format("truetype");
+}
+
+@font-face {
+  font-family: FFMarkWebProHeavy;
+  font-display: swap;
+  src: url("https://assets.innoq.com/fonts/350ED6_6_unhinted_0.woff2?cachebuster=7d0a3995eec718ff34fa844413298153")
+      format("woff2"),
+    url("https://assets.innoq.com/fonts/350ED6_6_unhinted_0.woff?cachebuster=7d0a3995eec718ff34fa844413298153")
+      format("woff"),
+    url("https://assets.innoq.com/fonts/350ED6_6_unhinted_0.ttf?cachebuster=7d0a3995eec718ff34fa844413298153")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "icons";
+  font-display: swap;
+  src: url("https://assets.innoq.com/fonts/icomoon.woff2?cachebuster=7d0a3995eec718ff34fa8444132981c6")
+      format("woff2"),
+    url("https://assets.innoq.com/fonts/icomoon.woff?cachebuster=7d0a3995eec718ff34fa8444132981c6")
+      format("woff"),
+    url("https://assets.innoq.com/fonts/icomoon.ttf?cachebuster=7d0a3995eec718ff34fa8444132981c6")
+      format("truetype"),
+    url("https://assets.innoq.com/fonts/icomoon.svg?cachebuster=7d0a3995eec718ff34fa8444132981c6#icons")
+      format("svg");
+  font-style: normal;
+  font-weight: normal;
+}
+
+b,
+strong,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: FFMarkWebProHeavy;
+  margin-top: 10px;
+  font-weight: normal;
+}
+
+a:link,
+a:active
+{
+  color: #004153;
+}
+
+a:hover {
+  color: #FF9C66;
+}
+
+a:visited {
+  color: #cccccc;
+}
+
+a.no-decoration {
+  color: #24244c;
+  text-decoration: none; 
+}
+
+body {
+  font-family: FFMarkWebProBook;
+  max-width: 960px;
+  margin: 0 auto;
+  color: #004153;
+}
+
+img.sponsor-banner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+}
+
+img.card-header {
+  width:100%;
+  max-width:600px;
+}
+
+img.card-image {
+  border:1px solid #cccccc;
+  max-width:70%;
+  max-height:70%;
+}
+
+img.faq-image {
+  max-width:70%;
+  max-height:70%;
+  display: block;
+  margin: 0 auto;
+}
+
+.font250 {
+  font-size: 250%;
+}
+
+.font150 {
+  font-size: 150%;
+}
+
+.font100 {
+  font-size: 100%;
+}
+
+.red {
+  color: #FF9C66;
+}
+.green {
+  color: #FF9C66;
+}
+.blue {
+  color: #004153;
+}
+.yellow {
+  color: #fff019;
+}
+.grey {
+  color: #cccccc;
+}
+
+.card-title {
+  margin-top: 1em;
+}
+
+.triangle {
+  color: #cccccc !important;
+}
+
+.info-section {
+  margin-top: 2em;
+}
+
+#footer {
+  margin-top: 3em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+
+/* BEGIN generated via http://www.responsivegridsystem.com/calculator/ */
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF TWO  */
+.span_2_of_2 {
+	width: 100%;
+}
+.span_1_of_2 {
+	width: 49.2%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 800 PIXELS */
+
+@media only screen and (max-width: 800px) {
+  .col { 
+		margin: 2%;
+  }
+  
+  .col:first-child {
+    margin-left: 2%;
+  }
+
+  img.mobile-hide {
+    display: none !important;
+  }
+
+  img.card-image {
+    max-width:98%;
+    max-height:98%;
+  }
+
+  .span_2_of_2, .span_1_of_2 {
+    width: 98%;
+  }
+}
+
+
+
+/* END generated */
