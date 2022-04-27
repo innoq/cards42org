@@ -181,11 +181,11 @@ img.faq-image {
 
 @media only screen and (max-width: 800px) {
   .col { 
-		margin: 2%;
+		margin: 5%;
   }
   
   .col:first-child {
-    margin-left: 2%;
+    margin-left: 5%;
   }
 
   img.mobile-hide {

@@ -25,9 +25,15 @@ layout: default
       </div>
     </div>
 
-  <header class="page-header">
-    <h1 class="page-title">{{ card.name }}</h1>
-  </header>
+    <div class="section">
+      <div class="group">
+        <div class="col">
+          <header class="page-header">
+            <h1 class="page-title">{{ card.name }}</h1>
+          </header>
+        </div>
+      </div>
+    </div>
 
 
     {% assign path_tokens = card.path | split: '/' %}
@@ -53,8 +59,10 @@ layout: default
     </div>
     <div class="section">
       <div class="group">
-        <p>
-        <a href="../en/" class="no-decoration"><b>&#9668 Take me to all the other cards!</b></a>
+        <div class="col">
+          <p>
+          <a href="../en/" class="no-decoration"><b>&#9668 Take me to all the other cards!</b></a>
+      </div>
       </p>
       </div>
     </div>
