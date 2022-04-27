@@ -9,9 +9,9 @@ It's often the existing constraints that make it difficult (at least for now) to
 
 This card can help you keep a clear head instead of despairing and throwing in the towel early. Explain what technology you perceive at which stage of adaptation. Do not only assess the new trendy topics that you find interesting for your software, but also try to match already used technology to one of the following stages and thus communicate the current view on the technologies:
 
-1. **Hold**: Already heard, doesn't really fit to us yet
+1. **Hold on**: Already heard, doesn't really fit to us yet
 2. **Assess**: Could be interesting, we'll find out more
-3. **Trialt**: There's a good use case that we're implementing
+3. **Trial**: There's a good use case that we're implementing
 4. **Apply**: Yes, it's worked out well, we're adding it to our standard portfolio
 5. **Stop**: Okay, we're gonna get out of here.
 6. **Remove**: Everywhere we stumble on it, it gets removed
