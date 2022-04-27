@@ -28,5 +28,3 @@ Also identify threats that are hidden in your software:
 **More information**
 
 * [SWOT analysis on gamestorming.com](https://gamestorming.com/swot-analysis/)
-
-* https://gamestorming.com/swot-analysis/)
