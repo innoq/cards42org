@@ -1,5 +1,5 @@
 ---
-name: Checklist Documentation
+name: Checklist documentation
 layout: card_page
 slug: doccheck
 ---

@@ -1,5 +1,5 @@
 ---
-name: The Worst Case Scenario
+name: The waste case scenario
 layout: card_page
 slug: waste
 ---

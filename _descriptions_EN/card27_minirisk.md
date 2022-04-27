@@ -1,5 +1,5 @@
 ---
-name: Risikominimierung
+name: Risk minimization
 layout: card_page
 slug: minirisk
 ---

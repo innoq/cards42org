@@ -1,5 +1,5 @@
 ---
-name: The 8-hour Cake
+name: The 8-hour cake
 layout: card_page
 slug: cake
 ---
@@ -18,7 +18,7 @@ Assess the time you spent! See if others determine how you work or if you have c
 * How much time do you expend on unplanned work?
 * How much time is spent on routine tasks?
 
-**More Information**
+**More information**
 
 * [Pomodoro technique for better time management](https://francescocirillo.com/pages/pomodoro-technique)
 * The book [Project Phoenix](https://www.oreilly.de/buecher/12508/9783958751750-projekt-phoenix.html) gives plenty of tips for designing your own work more effectively

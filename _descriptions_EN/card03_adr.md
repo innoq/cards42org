@@ -10,7 +10,7 @@ With the help of Architecture Decisions Records (ADRs), it is possible to docume
 
 With this template, you could practice structuring your decisions according to the ideas of the ADRs.
 
-**More Information**
+**More information**
 
 * [Website about ADRs](https://adr.github.io/)
 * [Initial introduction of the idea of ADRs](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions)

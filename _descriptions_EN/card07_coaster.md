@@ -1,5 +1,5 @@
 ---
-name: My Software Architecture
+name: Architecture on a beer coaster
 layout: card_page
 slug: coaster
 ---
@@ -15,7 +15,7 @@ Try to sketch the most important aspects of your architecture on this card.
 
 Discuss your drawing approach as well as the outcome. Think about what measures you can take to structure your software system even more clearly.
 
-**More Information**
+**More information**
 
 * The [documentation drawer system arc42](https://arc42.org/) offers a proven structure if you want to document further.
 * The book [Softwarearchitekturen dokumentieren und kommunizieren](http://www.swadok.de/) helps with the introduction to a lightweight software architecture documentation

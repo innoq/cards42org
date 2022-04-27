@@ -1,5 +1,5 @@
 ---
-name: Investment Sanity Checker
+name: Investment sanity checker
 layout: card_page
 slug: investment
 ---
@@ -20,6 +20,6 @@ At least 50% or more of your development time should be spent on this, to create
 **Architectural work** &ndash; Only through continuous work on the architecture
 you can keep the software alive and enable addressing new future trends and requirements. The recommendation is about 15-20% in larger projects.
 
-**More Information**
+**More information**
 
 * [aim42 - Architecture Improvement Method](https://www.aim42.org/)

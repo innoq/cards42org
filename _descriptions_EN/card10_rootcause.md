@@ -1,5 +1,5 @@
 ---
-name: Root Cause Analysis
+name: Root cause analysis
 layout: card_page
 slug: rootcause
 ---
@@ -9,6 +9,6 @@ This card should help you to overcome this initial instinct, whereby you first f
 
 Try to use the so called "5 Whys" in tricky situations, in order to not only constantly solve symptoms, but to tackle the root causes of the problem at the right time.
 
-**More Information**
+**More information**
 
 * Explanation of the [Root Cause Analysis](https://aim42.github.io/#Root-Cause-Analysis) on the Architecture Improvement Method aim42

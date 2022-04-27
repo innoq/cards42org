@@ -1,5 +1,5 @@
 ---
-name: Dream Project's Checklist
+name: Dream project's checklist
 layout: card_page
 slug: dream
 ---

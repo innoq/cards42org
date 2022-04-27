@@ -25,7 +25,7 @@ Also identify threats that are hidden in your software:
 * What are the unfavorable developments in your environment?
 * Where are the possible threats?
 
-**More Information**
+**More information**
 
 * [SWOT analysis on gamestorming.com](https://gamestorming.com/swot-analysis/)
 

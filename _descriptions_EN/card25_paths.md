@@ -12,7 +12,7 @@ The selected solution is usually described in an architecture documentation and 
 Now, think about which paths you deliberately did not follow in your software.
 Write them down on the card and describe what the reasons for the rejection of the individual alternative was. You can use the results of this map to create **Architecture Decision Records** for your software to make its history more comprehensible.
 
-**More Information**
+**More information**
 
 * [Introductory page for the topic ADR](https://adr.github.io/)
 * [Initial presentation of the idea of ADRs](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions)

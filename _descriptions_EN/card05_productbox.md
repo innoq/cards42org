@@ -1,5 +1,5 @@
 ---
-name: Your Product Box
+name: Your product box
 layout: card_page
 slug: productbox
 ---
@@ -15,7 +15,7 @@ The product box helps you to find meaningful answers for your software from the 
 
 You will better understand what you are creating software for by answering these questions.
 
-**More Information**
+**More information**
 
 * [Design the Box](https://gamestorming.com/design-the-box/) method from gamestorming.com
 

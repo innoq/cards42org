@@ -1,5 +1,5 @@
 ---
-name: The Conjurer's Wand
+name: The conjurer's wand
 layout: card_page
 slug: wand
 ---

@@ -1,5 +1,5 @@
 ---
-name: Do I work according to common development standards?
+name: Do you work according to common development standards?
 layout: card_page
 slug: standards
 ---
@@ -8,6 +8,6 @@ Some of them have been proven to positively influence the development and evolut
 
 Check within your team which of these standards you are implementing. Where are the potential needs for improvement? In addition, think about why you have not yet addressed missing or insufficient measures.
 
-**More Information**
+**More information**
 
 * The book [Accelerate](https://itrevolution.com/book/accelerate/) provides scientific evidence on one or the other good practice

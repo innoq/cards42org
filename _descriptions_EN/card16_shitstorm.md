@@ -1,5 +1,5 @@
 ---
-name: Avoid the &#35;Shitstorm!
+name: Avoid the &#35;shitstorm!
 layout: card_page
 slug: shitstorm
 ---
@@ -12,6 +12,6 @@ Approach the respective persons according to their views about your software sys
 * Who can be held accountable more effectively?
 * Who can support you if you need to escalate something?
 
-**More Information**
+**More information**
 
 * Related method of [Stakeholder Analysis](https://gamestorming.com/stakeholder-analysis/)

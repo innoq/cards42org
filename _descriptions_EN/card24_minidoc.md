@@ -1,5 +1,5 @@
 ---
-name: Architecture Mini Documentation
+name: Mini architecture documentation
 layout: card_page
 slug: minidoc
 ---
@@ -11,7 +11,7 @@ it is clarified why you need this software at the first place. Then note the thr
 With this minimalistic version of a documentation, you can lay the foundation for a more comprehensive architectural documentation.
 To create this without unnecessary overhead, a template such as arc42 can be used.
 
-**More Information**
+**More information**
 
 * [Official Site of arc42](https://arc42.org/)
 * Book [Primer - pragmatic documentation of software architectures](https://leanpub.com/arc42-primer)

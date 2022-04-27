@@ -1,5 +1,5 @@
 ---
-name: Technology Roadmap
+name: Technology roadmap
 layout: card_page
 slug: roadmap
 ---
@@ -17,7 +17,7 @@ This card can help you keep a clear head instead of despairing and throwing in t
 6. **Remove**: Everywhere we stumble on it, it gets removed
 
 
-**More Information**
+**More information**
 
 * A similar procedure can be found in the [Technology Radar](https://www.thoughtworks.com/radar) (which we used for inspiration)
 
