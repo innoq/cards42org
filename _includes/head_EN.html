@@ -1,16 +1,25 @@
+{% assign card = page %}
+
+{% assign path_tokens = card.path | split: '/' %}
+
+{% assign file_tokens = path_tokens[1] | split: '_' %}
+{% assign image = file_tokens[0] %}
+
+
+
 <head>
   <meta charset="utf-8">
-  <title>{{page.title}}</title>
+  <title>{% if card.name %}{{card.name}} - {% else %}{% endif %}cards42.org</title>
   <link rel="stylesheet" type="text/css" href="{{ "/assets/style.css" | prepend: site.baseurl | prepend: site.url }}">
 
   <link rel="shortcut icon" type="image/png" href="../favicon.png">
   <meta content="width=device-width, initial-scale=1" name="viewport" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="cards42.org" />
-  <meta property="og:description" content="Cards for Analyzing and Reflecting on Doomed Software" />
+  <meta property="og:title" content="{% if card.name %}{{card.name}} - {% else %}{% endif %}cards42.org" />
+  <meta property="og:description" content="{% if card.name %}{{card.name}} from {% else %}{% endif %}Cards for Analyzing and Reflecting on Doomed Software" />
   <meta property="og:url" content="https://www.cards42.org/" />
   <meta property="og:site_name" content="cards42.org" />
-  <meta property="og:image" content="{{ "/assets/cards42_preview_en.jpg" | prepend: site.baseurl | prepend: site.url }}" />
+  <meta property="og:image" content="{% if page.slug %}../cards_EN/{{image}}.png{% else %}{{ /assets/cards42_preview_en.jpg | prepend: site.baseurl | prepend: site.url }} />{% endif %}" />
   <meta property="og:image:secure_url" content="{{ "../assets/cards42_preview_en.jpg" | prepend: site.baseurl | prepend: site.url }}" />
   <meta property="og:image:type" content="image/jpeg" />
   <meta property="og:image:alt" content="An overview of the cards of the cards42 project" />
