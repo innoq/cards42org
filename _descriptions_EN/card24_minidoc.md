@@ -8,7 +8,7 @@ Many people associate architecture documentation with long and complex documents
 Start by stating the business reason for the software or briefly describe it. So
 it is clarified why you need this software at the first place. Then note the three most important quality attributes, sorted according to their priority. Finally, list the most important design decisions so that they are sustainably documented and verifiable.
 
-With this minidocumentation, the foundation for a more comprehensive architectural documentation has been successfully laid.
+With this minimalistic version of a documentation, you can lay the foundation for a more comprehensive architectural documentation.
 To create this without unnecessary overhead, a template such as arc42 can be used.
 
 **More Information**
