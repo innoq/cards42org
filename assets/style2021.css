@@ -159,7 +159,7 @@ img.faq-image {
 .col {
 	display: block;
 	float:left;
-	margin: 1% 0 1% 1.6%;
+	margin: 1% 0 1% 5%;
 }
 .col:first-child { margin-left: 0; }
 
@@ -168,38 +168,24 @@ img.faq-image {
 .group:after { content:""; display:table; }
 .group:after { clear:both;}
 .group { zoom:1; /* For IE 6/7 */ }
-
 /*  GRID OF TWO  */
 .span_2_of_2 {
 	width: 100%;
 }
 .span_1_of_2 {
-	width: 49.2%;
+	width: 47.5%;
 }
 
-/*  GO FULL WIDTH AT LESS THAN 800 PIXELS */
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
-@media only screen and (max-width: 800px) {
-  .col { 
-		margin: 5%;
-  }
-  
-  .col:first-child {
-    margin-left: 5%;
-  }
+@media only screen and (max-width: 480px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+}
 
-  img.mobile-hide {
-    display: none !important;
-  }
-
-  img.card-image {
-    max-width:98%;
-    max-height:98%;
-  }
-
-  .span_2_of_2, .span_1_of_2 {
-    width: 98%;
-  }
+@media only screen and (max-width: 480px) {
+	.span_2_of_2, .span_1_of_2 { width: 100%; }
 }
 
 
