@@ -1,7 +1,7 @@
 ---
 name: The Worst Case Scenario
 layout: card_page
-slug: dumpster
+slug: waste
 ---
 In many cases, one does not think about what led to the often fatal outcome until after the end of a project. In agile projects, retrospectives are also held to identify risks for a project at an early stage, but these are often limited to the events of the past few weeks.
 
