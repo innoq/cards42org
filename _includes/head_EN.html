@@ -16,7 +16,7 @@
   <meta content="width=device-width, initial-scale=1" name="viewport" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="{% if card.slug %}{{card.name}} - {% else %}{% endif %}cards42.org" />
-  <meta property="og:description" content="&quot;{% if card.name %}{{card.name}}&quot; from {% else %}{% endif %}Cards for Analyzing and Reflecting on Doomed Software" />
+  <meta property="og:description" content="&quot;{% if card.slug %}{{card.name}}&quot; from {% else %}{% endif %}Cards for Analyzing and Reflecting on Doomed Software" />
   <meta property="og:url" content="https://www.cards42.org/" />
   <meta property="og:site_name" content="cards42.org" />
   <meta property="og:image" content="{% if card.slug %}{{ "/cards_preview_EN/" | prepend: site.baseurl | prepend: site.url }}{{image}}.png{% else %}{{ "/assets/cards42_preview_en.jpg" | prepend: site.baseurl | prepend: site.url }}{% endif %}" />
