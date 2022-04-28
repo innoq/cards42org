@@ -1,72 +1,99 @@
 # cards42.org
 
-## Was ist das hier?
+*[German version](README_DE.md)*
 
-Dies ist das Repository für die Homepage [cards42.org](https://cards42.org). Das cards42-Projekt besteht (in der Endausbaustufe) aus 42 Karten, welche Softwarearchitektinnen und Softwarearchitekten bei der täglichen Architekturarbeit unterstützen.
+## What is this all about?
 
-Die Karten geben kurze Denkanstöße für festgefahrene Situationen und helfen, neues Licht auf schwierige Herausforderungen zu werfen.
+This is the repository for the website [cards42.org](https://cards42.org). The cards42 project consists (in the final stage) of 42 cards, which support software architects in their daily architectural work.
 
-Hintergründe und mehr Details zu den Karten sind auf [cards42.org](https://cards42.org) zu finden.
+The cards provide brief food for thought for deadlocked situations and help to shed new light on difficult challenges.
 
-## Wie kann ich hier mitarbeiten?
+Backgrounds and more details about the cards are available on [cards42.org](https://cards42.org).
 
-### Beschreibungstexte
+## How can I contribute?
 
-Die Texte, welche die Karten erklären, findest Du unter `_descriptions`. Erstelle gerne einen neuen Pull Request mit Deinen Änderungen oder Ergänzungen zu den vorhandenen Texten. Einen neuen Text kannst Du zusammen mit einer neuen Karte ebenfalls beisteuern. Halte Dich hier bitte an die Namenskonventionen, welche weiter unten beschrieben sind.
+cards42 is an open project where people can bring in new ideas.
 
-### Neue Kartenideen
 
-Gerne kannst Du auch Deine Ideen für neue Karten beitragen. Öffne dazu einfach ein neues Ticket in Repository und beschreibe Deine Idee. Vielleicht hast Du auch schon eine Skizze der Karte? Lade sie einfach hoch und wir diskutieren drüber. Wir würden dann die Idee gemeinsam ausarbeiten und auch grafisch redesignen.
+### Proofreading
 
-### Deine Mitarbeit
+The cards42 project was originally created in the German language.
+We've decided to translated the cards in English as well.
+We would appreciate any comments or/and suggestions for improvements.
 
-Gerne nennen wir Deinen Namen dann auf unserer Website [cards42.org](https://cards42.org) unter der "Mitwirkende"-Sektion!
+### New ideas for cards
 
-## Was muss beachtet werden?
+You are also welcome to contribute your ideas for new cards.
+Just [open a new ticket](https://github.com/innoq/cards42org_en/issues/new) and describe your idea.
+Maybe you already have a sketch of the cards?
+Just upload it and we can discuss it.
+We would then work out the idea together and also redesign it graphically.
 
-Die Kartenbilder (unter `cards`) und deren Beschreibungen (unter `_descriptions`) werden über Namenskonventionen der Dateinamen zusammengefügt.
+### Description texts
 
-* Der Dateiname `cardname` einer Karte lautet `card<2-stellige Nummer>.png`
-* Der Dateiname einer Beschreibung lautet `<cardname>_<tag>.md`
+The texts explaining the cards can be found under `descriptions`.
+Feel free to create a new Pull Request with your changes or additions to the existing texts.
+You can also contribute a new text together with a new card.
+Please follow the naming conventions described below.
 
-Über Jekyll / Liquid werden in der `index.html` so die entsprechenden Informationen aus den Dateinamen extrahiert.
+### Your participation
 
-## Wie wird das gebaut?
+We will be happy to mention your name on our website [cards42.org](https://cards42.org) under the "Contributors" section!
+Feel free to add yourself under `_info/90_contributors.md`.
+
+## What are some of the rules?
+
+When you are creating a new card, there are some conventions to adhere to.
+The card images (under `cards`) and their descriptions (under `_descriptions`) are brought together using file name conventions.
+
+* The file name `cardname` of a card is `card<2-digit number>.png`
+* The file name of a description is `<cardname>_<tag>.md`
+
+Using Jekyll / Liquid, the corresponding information in the `index.html` is thus extracted from the file names.
+
+## How is it built?
 
 ### Website
 
-Die Seite wird über [Jekyll](https://jekyllrb.com/) erzeugt. Bei jeder Änderung wird die Website über GitHub neu erzeugt.
+The page is generated via [Jekyll](https://jekyllrb.com/)
+Every time you make a change in the master branch, GitHub rebuilds the website.
 
-Eine lokale Installation von Jekyll ist hiermit möglich:
+A local installation of Jekyll for local testing is also possible:
 
 ```
 gem install bundler jekyll
 ```
 
-Anschließend kann die Website lokal mit dem Befehl
+The website can then be opened locally.
+
+Build the website with the command
 
 ```
 jekyll serve
 ```
 
-gebaut und unter <https://localhost:4000/> betrachtet werden.
+Under <https://localhost:4000/>, you can then take a look at the website.
 
-### Bilder
+### Pictures
 
-Die PNG-Bilder werden per Ghostscript aus den Druck-PDFs von INNOQ erzeugt.
+_Only relevant for the main maintainers of the project_
 
-Schritt 1: Bei der Original-PDF müssen zuerst die Druckränder entfernt werden:
+The PNG images are generated by Ghostscript from the print PDFs of INNOQ (the company that came up with the idea for the cards and most of the cards are from so far).
+
+Step 1: With the original PDF, the print margins must first be removed:
 
 ```
 gs -sDEVICE=pdfwrite -o "cards42_temp.pdf" -g2960x4144 -c "<< /Install { -22 -22 translate } bind >> setpagedevice" -f cards42.pdf
 ```
 
-Schritt 2: Die einzelnen Karten werden ohne Titel- und Erklärungskarte (`-dFirstPage=3`) als PNG-Bilder (`-sDEVICE=png16`) mit Anti-Aliasing (`-dTextAlphaBits=4` und `-dGraphicsAlphaBits=4`) in 144 DPI (`-r144`) und dem weiter oben definierten Namensschema `-o card%02d.png` exportiert.
+Step 2: The individual cards are exported without title and explanation card (`-dFirstPage=3`) as PNG images (`-sDEVICE=png16`) with anti-aliasing (`-dTextAlphaBits=4` and `-dGraphicsAlphaBits=4`) in 144 DPI (`-r144`) and the naming scheme `-o card%02d.png` defined above.
 
 ```
 gs -dFirstPage=3 -sDEVICE=png16m -dTextAlphaBits=4 -dGraphicsAlphaBits=4 -r144 -o card%02d.png cards42_temp.pdf
 ```
 
-## Lizenz
+## License
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br />Dieses Werk ist lizenziert unter einer <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Namensnennung - Keine Bearbeitungen 4.0 International Lizenz</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br />This work is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution - Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)</a>.
+
+You can use the cards free of charge even in business contexts. But we want to avoid that other companies just copycat the cards42 cards.
