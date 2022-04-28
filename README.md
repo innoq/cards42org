@@ -1,6 +1,6 @@
 # cards42.org
 
-*[German version](README_DE.md)*
+*[German version](README_de.md)*
 
 ## What is this all about?
 
