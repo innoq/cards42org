@@ -10,4 +10,4 @@ Check within your team which of these standards you are implementing. Where are 
 
 **More information**
 
-* The book [Accelerate](https://itrevolution.com/book/accelerate/) provides scientific evidence on one or the other good practice
+* The book [Accelerate](https://itrevolution.com/book/accelerate/) provides scientific evidence good practices for software development

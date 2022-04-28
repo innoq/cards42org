@@ -20,6 +20,5 @@ Assess the time you spent! See if others determine how you work or if you have c
 
 **More information**
 
-* [Pomodoro technique for better time management](https://francescocirillo.com/pages/pomodoro-technique)
-* The book [Project Phoenix](https://www.oreilly.de/buecher/12508/9783958751750-projekt-phoenix.html) gives plenty of tips for designing your own work more effectively
-
+* Take a look at the [Pomodoro technique](https://francescocirillo.com/pages/pomodoro-technique) for better time management
+* The book [Project Phoenix](https://itrevolution.com/the-phoenix-project/) gives plenty of tips for designing your own work more effectively
