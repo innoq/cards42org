@@ -5,7 +5,8 @@ slug: investment
 ---
 Investments reveal a lot about the status of a software project.
 Often you as an architect have to deal with technical matters (*important*) in contrast to the product matters (*urgent*).
-**support/bugfixing** &ndash; errors are often easier to fix the sooner they are identified in the software development cycle.
+
+**Support/Bugfixing** &ndash; errors are often easier to fix the sooner they are identified in the software development cycle.
 Hotspots for errors are good candidates for refactoring.
 Ideally you should get a value below 10% here - very likely the value will be greater.
 

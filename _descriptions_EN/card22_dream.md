@@ -16,7 +16,7 @@ If this is not the case, no matter how hard a team tries:
 This checklist will help you to assess whether you have thought of the most important matters in the initial phase of your project, and will give you food for thought about what you might be missing.
 
 
-**Additional Information**
+**More information**
 
 * Michael Keeling provides many hints for successful software projects in his book "Design It! From Programmer to Software Architect"
 * The software architecture documentation kit [arc42](https: https://arc42.org/) provides space to record the most important things about a software
