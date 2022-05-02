@@ -1,7 +1,7 @@
 ---
-name: Powerskills
+name: The Superarchitectodon
 layout: card_page
-slug: powerskills
+slug: superpowers
 ---
 Different software systems with their varying software architectures also require different skills of the parties involved in order to be successful.
 
