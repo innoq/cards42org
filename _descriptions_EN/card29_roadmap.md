@@ -4,9 +4,9 @@ layout: card_page
 slug: roadmap
 alt: A card that shows six road signs. Each sign stands for a different stage of adoption of a certain technology. All signs contain a box underneath where you can write down several technologies for a specific stage.
 ---
-Do you recognize this? Developers just returned from a conference and would like to put all this new stuff into the software system right now? The temptation might be great, but all the existing stuff constrains you in your system. 
+Do you recognize this? Developers just returned from a conference and would like to put all the new stuff they've just heard of into the software system right now? The temptation might be great, but "conference-driven development" isn't the best approach and all the existing stuff constrains your freedom of choice, too.
 
-How can you communicate that you address the developers' ideas about renewing your tech stack and keep the balance with the stuff that's already existing? This card allows you to set a roadmap for technology. Put your new and existing use of technologies in different stages of adoption:
+How can you communicate that you address the developers' ideas about renewing your tech stack and keep the balance with the stuff that's already existing? This card allows you to set a roadmap for the technologies you use or want to use in your software system. Put your new and existing technologies in different stages of adoption:
 
 1. **Hold on**: Already heard; doesn't really fit to us yet
 2. **Assess**: Could be interesting; we'll find out more about this
