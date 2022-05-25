@@ -44,8 +44,7 @@ layout: default
     <div class="section">
         <div class="group">
             <div class="col span_1_of_2">
-                <img class="card-image lozad" data-src="../cards_EN/{{image}}.png" />
-                <noscript><img class="card-image" src="../cards_EN/{{image}}.png" alt="The image for the card with the name {{card.name}}" /></noscript>
+                <img class="card-image" src="../cards_EN/{{image}}.png" alt="{% if card.alt %}{{card.alt}}{% else %}The image for the card with the name {{card.name}}{%endif%}" />
                 <small><br/>
                     Download:
                         <a href="../cards_EN/{{image}}.png" download="{{image}}_{{tag}}.png">PNG</a>

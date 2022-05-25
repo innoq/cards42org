@@ -11,8 +11,8 @@
     </div>
     <div class="group">
         <div class="col span_1_of_2">
-            <a href="../{{tag}}"><img class="card-image lozad" data-src="../cards_EN/{{image}}.png" /></a>
-            <noscript><a href="/{{tag}}"></a><img class="card-image" src="../cards_EN/{{image}}.png" alt="The image for the card with the name {{card.name}}" /></a></noscript>
+            <a href="../{{tag}}"><img class="card-image lozad" data-src="../cards_EN/{{image}}.png" alt="{% if card.alt %}{{card.alt}}{% else %}The image for the card with the name {{card.name}}{%endif%}" /></a>
+            <noscript><a href="/{{tag}}"></a><img class="card-image" src="../cards_EN/{{image}}.png" alt="{% if card.alt %}{{card.alt}}{% else %}The image for the card with the name {{card.name}}{%endif%}" /></a></noscript>
             <small><br/>
                 Download:
                     <a href="../cards_EN/{{image}}.png" download="{{image}}_{{tag}}.png">PNG</a>
