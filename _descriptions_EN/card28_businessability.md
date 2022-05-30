@@ -12,3 +12,7 @@ At the end sum up the individual score per technology and compare the results. Y
 
 You can now use the result of this evaluation for further project planning and architectural documentation. 
 The evaluation also helps you to be able to support your decision to the project manager, who pay less attention to technology, but all the more to the economic efficiency of a solution.
+
+**More information**
+
+- [The "Boring Software" manifesto](https://tqdev.com/2018-the-boring-software-manifesto) give you ideas at what you'll also need to look at when you want to choose a technology
