@@ -2,6 +2,7 @@
 name: What's the user's need?
 layout: card_page
 slug: value
+alt: A cards with an arrow on the y-axis on the left side named "value for the user)
 ---
 *"Let's add this new framework that was launched last week!"*
 
@@ -23,4 +24,5 @@ With this card you can check with your next decisions, how much benefit users de
 
 **More information**
 
-- [Value Chains and Wardley Maps] [https://www.cio.co.uk/it-strategy/introduction-wardley-value-chain-mapping-3604565/]
+- [Value Chains and Wardley Maps](https://www.cio.co.uk/it-strategy/introduction-wardley-value-chain-mapping-3604565/)
+- [Markus's Top 5 learning resources for Wardley Map](https://www.feststelltaste.de/top-5-learning-wardley-maps/)
