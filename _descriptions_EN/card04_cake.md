@@ -2,6 +2,7 @@
 name: The 8-hour cake
 layout: card_page
 slug: cake
+alt: The card shows a circle that represents a cake. This cake is divided into eight pieces. Each piece stands for an hour. By writing down the actual work you do during the day, you should find out which parts of the day you're using ineffectively.
 ---
 <q>The day has 24h and then there is the night, too.</q> &mdash; A former professor of Markus.
 
