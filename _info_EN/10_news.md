@@ -2,6 +2,8 @@
 title: News
 ---
 
+31/05/2022: Released printed English edition and improved website
+
 19/04/2022: Merged English version with the German one
 
 07/08/2020: Added support for short URLs.
