@@ -6,7 +6,7 @@ alt: The card shows a form where you can write down the name and a short descrip
 ---
 Issues cause costs. If those costs of the issue are disproportionately higher than the costs of the solution, it is profitable to address the issues for economic reasons.
 
-This cards helps you to record a very important problem in a structured way and lets you estimate the associated pain and costs. The interval for your problem cost estimation allows you to indicated how certain or uncertain you are with your estimation. If the interval is wide, it might be a good reason to take a deeper look into the problem or to divide it up into smaller ones.
+This card helps you to record a very important problem in a structured way and lets you estimate the associated pain and costs. The interval for your problem cost estimation allows you to indicate how certain or uncertain you are with your estimation. If the interval is wide, it might be a good reason to take a deeper look into the problem or to divide it up into smaller ones.
 
 **More information**
 

@@ -24,4 +24,5 @@ wie viel Nutzen die Anwender\*innen daraus ziehen und ob die Änderungen tatsäc
 sinnvoll oder notwendig sind.
 
 **Mehr Informationen**
-- [Value Chains und Wardley Maps](https://www.cio.co.uk/it-strategy/introduction-wardley-value-chain-mapping-3604565/)
+- [Value Chains und Wardley Maps](https://www.cio.com/article/196094/an-introduction-to-wardley-value-chain-mapping.html)
+- [Markus Top 5 Empfehlungen für den Einstieg in Wardley Maps](https://www.feststelltaste.de/top-5-learning-wardley-maps/)

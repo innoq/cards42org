@@ -20,9 +20,9 @@ This will most likely have no noticeable impact on stakeholders,  but simultaneo
 You plan to integrate another new payment method into your system, but aren't you sure if nine weeks of development time can be spent on this?
 Many of your users might be grateful to have a new option to pay for products. So this feature has a very big benefit.
 
-With this card you can check with your next decisions, how much benefit users derive from the changes and whether the changes actually are useful or necessary.
+With this card you, can check your next decisions regarding how much benefit users get from the changes and whether your discussions actually are useful.
 
 **More information**
 
-- [Value Chains and Wardley Maps](https://www.cio.co.uk/it-strategy/introduction-wardley-value-chain-mapping-3604565/)
-- [Markus's Top 5 learning resources for Wardley Map](https://www.feststelltaste.de/top-5-learning-wardley-maps/)
+- [Value Chains and Wardley Maps](https://www.cio.com/article/196094/an-introduction-to-wardley-value-chain-mapping.html)
+- [Markus's Top 5 learning resources for Wardley Maps](https://www.feststelltaste.de/top-5-learning-wardley-maps/)

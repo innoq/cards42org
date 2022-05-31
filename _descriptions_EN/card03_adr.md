@@ -12,8 +12,8 @@ With this template, you could practice structuring your decisions according to t
 * Title: What decision is at stake?
 * Status: What is the status of the ADR? List rejected or obsolete ADRs!
 * Context: Why decide now? What were the circumstances?
-* Decision: What was the decision, what were the alternatives?
-* Consequences: With which advantages and disadvantages do we want to live with from now on?
+* Decision: What was the decision and what were the alternatives?
+* Consequences: With which advantages and disadvantages do we want to live from now on?
 
 
 **More information**

@@ -11,4 +11,4 @@ But why does it have to come to this point? Think about what could cause your pr
 
 **More information**
 
-* A similar approach are [pre-mortems](https://www.funretrospectives.com/pre-mortem-activity/), which help you to find weak spots in your way of developing software system
+* A similar approach are [pre-mortems](https://www.funretrospectives.com/pre-mortem-activity/), which help you to find weak spots in your way of developing a software system
