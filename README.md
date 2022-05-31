@@ -1,6 +1,6 @@
 # cards42.org
 
-*[German version](README_de.md)*
+*[German version (outdated)](README_de.md)*
 
 ## What is this all about?
 
@@ -31,7 +31,7 @@ We would then work out the idea together and also redesign it graphically.
 
 ### Description texts
 
-The texts explaining the cards can be found under `descriptions`.
+The texts explaining the cards can be found under `descriptions` (German version) or `descriptions_EN)` (English version).
 Feel free to create a new Pull Request with your changes or additions to the existing texts.
 You can also contribute a new text together with a new card.
 Please follow the naming conventions described below.
@@ -92,8 +92,18 @@ Step 2: The individual cards are exported without title and explanation card (`-
 gs -dFirstPage=3 -sDEVICE=png16m -dTextAlphaBits=4 -dGraphicsAlphaBits=4 -r144 -o card%02d.png cards42_temp.pdf
 ```
 
+## Internationalization
+
+* Originally, the cards42 project was created in the German language. The English edition was integrated in the original German version with a few adjustments:
+  * the layout for the English cards was duplicated and refactored into several files
+  * the cards and descriptions for English version are in directories with a postfix `_EN`
+  * the English version of the `index.html` is in the root directory `/en` to allow the entry point cards42.org/en
+  * the URL to the cards is not based on an HTML anchor (#), but URL-based to create similar short URLs to the cards
+  * there is the main site that contains all cards but also a dedicated page for each card
+  * both content on the main site and the cards' pages are identical
+
 ## License
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br />This work is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution - Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)</a>.
 
-You can use the cards free of charge even in business contexts. But we want to avoid that other companies just copycat the cards42 cards.
+You can use the cards free of charge even in business contexts. But we want to avoid that other companies just copycat the cards42 cards. The company INNOQ supports this projects with time and by paying for the printing of the cards.
