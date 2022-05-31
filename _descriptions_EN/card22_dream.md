@@ -18,5 +18,5 @@ This checklist will help you assess whether you have thought of the most critica
 
 **More information**
 
-* Michael Keeling provides many hints for successful software projects in his book "Design It! From Programmer to Software Architect"
-* The software architecture documentation kit [arc42](https: https://arc42.org/) provides space to record the most important things about a software
+* Michael Keeling provides many hints for successful software projects in his book [Design It! From Programmer to Software Architect](https://pragprog.com/titles/mkdsa/design-it/)
+* The software architecture documentation toolkit [arc42](https: https://arc42.org/) provides space to record the most important things about the architecture of a software system

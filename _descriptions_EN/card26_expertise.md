@@ -15,3 +15,5 @@ Afterwards you can discuss your results. Maybe someone else chose this topic as 
 After all, this results in a greater accumulation of knowledge and perhaps also varying learning resources.
 Ideally, collect the filled out cards in a location that is accessible to everyone in the team.
 This allows everyone to access the learning resources and expand their knowledge at any time.
+
+* Markus Harrer lists some of his personal TOP 5's [on his blog](https://www.feststelltaste.de/category/top5/).
