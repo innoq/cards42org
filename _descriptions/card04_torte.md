@@ -17,5 +17,5 @@ Beurteilt eure genutzte Zeit auch danach, ob ihr von der Arbeit getrieben seid o
 
 **Mehr Informationen**
 * [Pomodoro-Technik für besseres Zeitmanagement](https://francescocirillo.com/pages/pomodoro-technique)
-* Das Buch [Projekt Phoenix](https://www.oreilly.de/buecher/12508/9783958751750-projekt-phoenix.html) gibt zahlreiche Hinweise für eine effektivere Gestaltung der eigenen Arbeit
+* Das Buch [Projekt Phoenix](https://oreilly.de/produkt/projekt-phoenix/) gibt zahlreiche Hinweise für eine effektivere Gestaltung der eigenen Arbeit
 
