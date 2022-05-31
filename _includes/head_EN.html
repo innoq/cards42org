@@ -25,13 +25,9 @@
   <meta property="og:image:type" content="{% if card.slug %}image/png{% else %}image/jpeg{% endif %}" />
   <meta property="og:image:alt" content="{% if card.alt %}{{card.alt}}{% else %}An overview of the cards of the cards42 project{% endif %}" />
 
-  <script src="https://assets.innoq.com/chenin.js"></script>
+  <script async defer data-domain="cards42.org" src="https://stats.innoq.com/js/index.js"></script>
   <script src="{{ "/assets/js/polyfill.min.js?features=IntersectionObserver" | prepend: site.baseurl | prepend: site.url }}"></script>
   <script src="{{ "/assets/js/lozad.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
   <script src="{{ "/assets/js/index.js" | prepend: site.baseurl | prepend: site.url }}"></script>
-
-  <script>
-      new Chenin({siteId: 3, hashMode: true});
-  </script>
   
 </head>
