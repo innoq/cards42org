@@ -92,7 +92,16 @@ Step 2: The individual cards are exported without title and explanation card (`-
 gs -dFirstPage=3 -sDEVICE=png16m -dTextAlphaBits=4 -dGraphicsAlphaBits=4 -r144 -o card%02d.png cards42_temp.pdf
 ```
 
-## Internationalization
+Alternatively, we directly export PNGs from the publishing software.
+
+
+Additionally, we create preview pictures e.g. for Twitter cards images. These need to be smaller with additional whitespace on each side. We use ImageMagick for this.
+
+```
+for file in *.png; do convert -resize 50% -gravity center -extent 450x450 $file $file; done
+```
+
+### Internationalization
 
 * Originally, the cards42 project was created in the German language. The English edition was integrated in the original German version with a few adjustments:
   * the layout for the English cards was duplicated and refactored into several files
