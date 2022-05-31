@@ -1,5 +1,6 @@
 ---
 name: Was würde ___ tun?
+examples: idol_1.png
 ---
 Ihr wisst bei einem kniffligen Problem nicht mehr weiter?
 Ihr müsst etwas schnell umsetzen, habt aber eine Denkblockade?
