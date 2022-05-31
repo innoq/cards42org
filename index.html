@@ -118,6 +118,14 @@ title: cards42 - Die Mitmach-Karten für Softwarearchitekt*innen
                     Download:
                         <a href="cards/{{image}}.png" download="{{image}}_{{tag}}.png">PNG</a>
                         <a href="cards_svg/{{image}}.svg" download="{{image}}_{{tag}}.svg">SVG</a>
+                    {% if card.examples %}
+                        {% for filename in card.examples %}
+                            <a href="cards_examples/{{filename}}">Example {{i}}</a>
+                            {% assign i = i | plus:1 %}
+                        {% endfor %}
+                    {% else %}
+                    {% endif %}
+
                 </small>
             </div>
             <div class="col span_1_of_2">

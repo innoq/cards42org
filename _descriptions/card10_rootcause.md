@@ -1,5 +1,6 @@
 ---
 name: Root Cause Analysis
+examples: card10_01.svg
 ---
 Softwareentwickler*innen lösen tagtäglich hunderte von kleinen und großen Problemen. Wir sind dadurch darauf konditioniert, schnell Lösungen hervorzubringen. In manchen schwierigen Situationen ist dies aber kontraproduktiv. Wir reagieren hier oft auch mit unserem antrainierten Lösungsreflex auf das erste vermeintliche und für uns klar erscheinende Problem.
 
