@@ -121,7 +121,7 @@ title: cards42 - Die Mitmach-Karten für Softwarearchitekt*innen
                     {% if card.examples %}
                         {% assign i = 1 %}
                         {% for filename in card.examples %}
-                            <a href="cards_examples/{{filename}}">Beispiel {{i}}</a>
+                            <a href="cards_examples/{{filename}}" download="{{filename}}">Beispiel {{i}}</a>
                             {% assign i = i | plus:1 %}
                         {% endfor %}
                     {% else %}

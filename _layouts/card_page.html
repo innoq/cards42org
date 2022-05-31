@@ -52,7 +52,7 @@ layout: default
                         {% if card.examples %}
                         {% assign i = 1 %}
                         {% for filename in card.examples %}
-                            <a href="cards_examples_EN/{{filename}}">Example {{i}}</a>
+                            <a href="../cards_examples_EN/{{filename}}" download="{{filename}}">Example {{i}}</a>
                             {% assign i = i | plus:1 %}
                         {% endfor %}
                       {% else %}
