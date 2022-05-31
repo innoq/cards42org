@@ -1,5 +1,5 @@
 ---
-name: Checklist documentation
+name: Checklist for a better documentation
 layout: card_page
 slug: doccheck
 alt: A checklist with several items regarding good documenation.

@@ -1,5 +1,5 @@
 ---
-name: What's the user's need?
+name: Where is the value for the user?
 layout: card_page
 slug: value
 alt: A cards with an arrow on the y-axis on the left side named "value for the user)
