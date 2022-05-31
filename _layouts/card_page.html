@@ -50,13 +50,13 @@ layout: default
                         <a href="../cards_EN/{{image}}.png" download="{{image}}_{{tag}}.png">PNG</a>
                         {% comment %} <a href="../cards_svg_EN/{{image}}.svg" download="{{image}}_{{tag}}.svg">SVG</a>{% endcomment %}
                         {% if card.examples %}
-                        {% assign i = 1 %}
-                        {% for filename in card.examples %}
-                            <a href="../cards_examples_EN/{{filename}}" download="{{filename}}">Example {{i}}</a>
-                            {% assign i = i | plus:1 %}
-                        {% endfor %}
-                      {% else %}
-                      {% endif %}
+                          {% assign i = 1 %}
+                          {% for filename in card.examples %}
+                              <a href="../cards_examples_EN/{{filename}}" download="{{filename}}">Example {{i}}</a>
+                              {% assign i = i | plus:1 %}
+                          {% endfor %}
+                        {% else %}
+                        {% endif %}
                 </small>
             </div>
             <div class="col span_1_of_2">
