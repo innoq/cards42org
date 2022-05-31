@@ -17,4 +17,4 @@ Once you have arrived in the future, collect the TOP 3 actions that have happene
 **More information**
 
 * Article about the use of the [hypothetical press release](https://www.businessinsider.com/heres-the-surprising-way-amazon-decides-what-new-enterprise-products-to-work-on-next-2015-3?IR=T) at Amazon
-* Collection of [similar formats](http://www.funretrospectives.com/category/futurespective/), which work with future scenarios
+* Collection of [similar formats](https://www.funretrospectives.com/category/futurespective/), which work with future scenarios
