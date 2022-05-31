@@ -119,6 +119,7 @@ title: cards42 - Die Mitmach-Karten für Softwarearchitekt*innen
                         <a href="cards/{{image}}.png" download="{{image}}_{{tag}}.png">PNG</a>
                         <a href="cards_svg/{{image}}.svg" download="{{image}}_{{tag}}.svg">SVG</a>
                     {% if card.examples %}
+                        {% assign i = 1 %}
                         {% for filename in card.examples %}
                             <a href="cards_examples/{{filename}}">Example {{i}}</a>
                             {% assign i = i | plus:1 %}
