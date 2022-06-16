@@ -7,6 +7,10 @@ title: Frequently Asked Questions
 The printed card packs are available at conferences where INNOQ participates (e.g., DeveloperWeek, Goto conference, or JAX).
 Markus also offers shipping cards from time to time (at least in his training courses).
 
+### Do you have a file with all cards?
+
+Yes, we have. You can download a PDF file with all cards at once: [cards42 English edition.pdf](../cards42%20English%20edition.pdf)
+
 ### How was the idea born?
 
  Once upon a time, [Markus Harrer](https://twitter.com/feststelltaste) (the initiator and main contributor) went after an internal INNOQ company event to a bookstore and discovered ["50 Karten: Kunterbunte Mitmach-Karten für das Handgepäck"](https://www.usborne.de/usborne-verlag-buecher/katalog/produkt/5/8810/50-karten-kunterbunte-mitmach-karten-fuer-das-handgepaeck/) (rough translation: "50 cards: colorful activity cards for your hand luggage").
