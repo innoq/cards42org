@@ -22,7 +22,7 @@ Yes, we have. You can download a PDF file with all cards at once: [cards42 Engli
 
 ### Why the name "cards42"?
 
- With this name, we follow the tradition of [Gernot Starke](https://www.innoq.com/en/staff/gernot-starke/) (INNOQ Fellow) in the naming process. Gernot has already created the projects [arc42](https://arc42.org/) and [aim42](https://www.aim42.org/). He also explained the origin of the number 42 [the origin of the number 42](https://faq.arc42.org/questions/A-1/).
+ With this name, we follow the tradition of [Gernot Starke](https://www.innoq.com/en/staff/gernot-starke/) (INNOQ Fellow) in the naming process. Gernot has already created the projects [arc42](https://arc42.org/) and [aim42](https://www.aim42.org/). He also explained [the origin of the number 42](https://faq.arc42.org/questions/A-1/).
 
 *OK, and of course, the domain was still available ;-)*
 
