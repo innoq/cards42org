@@ -13,7 +13,7 @@ Yes, we have. You can download a PDF file with all cards at once: [cards42 Engli
 
 ### How was the idea born?
 
- Once upon a time, [Markus Harrer](https://twitter.com/feststelltaste) (the initiator and main contributor) went after an internal INNOQ company event to a bookstore and discovered ["50 Karten: Kunterbunte Mitmach-Karten für das Handgepäck"](https://www.usborne.de/usborne-verlag-buecher/katalog/produkt/5/8810/50-karten-kunterbunte-mitmach-karten-fuer-das-handgepaeck/) (rough translation: "50 cards: colorful activity cards for your hand luggage").
+ Once upon a time, [Markus Harrer](https://www.innoq.com/de/staff/markus-harrer/) (the initiator and main contributor) went after an internal INNOQ company event to a bookstore and discovered ["50 Karten: Kunterbunte Mitmach-Karten für das Handgepäck"](https://www.usborne.de/usborne-verlag-buecher/katalog/produkt/5/8810/50-karten-kunterbunte-mitmach-karten-fuer-das-handgepaeck/) (rough translation: "50 cards: colorful activity cards for your hand luggage").
  These cards were designed to encourage children to think about various things.
  Markus was heavily inspired by these cards and created the initial idea for "Activity Cards for Software Architects."
  The cards42 project was born.

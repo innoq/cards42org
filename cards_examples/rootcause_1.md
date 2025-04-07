@@ -1,1 +1,1 @@
-Dank an <a href="https://twitter.com/feststelltaste">@feststelltaste</a>!
+Danke an Markus Harrer!

@@ -95,7 +95,7 @@ gs -dFirstPage=3 -sDEVICE=png16m -dTextAlphaBits=4 -dGraphicsAlphaBits=4 -r144 -
 Alternatively, we directly export PNGs from the publishing software.
 
 
-Additionally, we create preview pictures e.g. for Twitter cards images. These need to be smaller with additional whitespace on each side. We use ImageMagick for this.
+Additionally, we create preview pictures e.g. for social networks. These need to be smaller with additional whitespace on each side. We use ImageMagick for this.
 
 ```
 for file in *.png; do convert -resize 50% -gravity center -extent 450x450 $file $file; done
